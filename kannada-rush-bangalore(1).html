@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kannada Rush · Bangalore words</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Baloo+Tamma+2:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FCF2E2; --bg-warm:#F7E4C8;
+    --ink:#3A2233; --ink-soft:#7A6270;
+    --gold:#E29A1F; --gold-deep:#C97F0C; --gold-soft:#F6DCA6;
+    --coral:#E0614A; --teal:#2E9E8F; --teal-soft:#E7F5F2;
+    --card:#FFFFFF; --line:#ECD9BE; --shadow:rgba(58,34,51,.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:"Inter",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(1100px 520px at 80% -10%, var(--bg-warm), transparent 60%),
+      radial-gradient(900px 500px at -5% 110%, #FBE6CF, transparent 55%),
+      var(--bg);
+    min-height:100vh;padding:20px 16px 48px;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:880px;margin:0 auto}
+
+  header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  h1{font-family:"Baloo 2";font-weight:800;font-size:clamp(24px,5vw,36px);margin:0;line-height:1}
+  h1 em{color:var(--gold);font-style:normal}
+  .tag{font-family:"Baloo Tamma 2";color:var(--gold);font-size:15px}
+  .sound{margin-left:auto;background:var(--card);border:1px solid var(--line);border-radius:999px;
+    cursor:pointer;font-size:15px;padding:7px 13px;color:var(--ink-soft);font-family:"Baloo 2";font-weight:600}
+  .sound:hover{border-color:var(--gold);color:var(--ink)}
+
+  .hud{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:11px 15px;box-shadow:0 2px 10px var(--shadow);margin-bottom:10px}
+  .stat{display:flex;flex-direction:column;line-height:1}
+  .stat .k{font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--ink-soft);margin-bottom:3px}
+  .stat .v{font-family:"Baloo 2";font-weight:700;font-size:20px;color:var(--ink)}
+  .hud .sep{width:1px;align-self:stretch;background:var(--line)}
+  .hearts{font-size:19px;letter-spacing:2px;color:var(--coral)}
+  .hearts .lost{color:var(--line)}
+  .combo{margin-left:auto;font-family:"Baloo 2";font-weight:800;font-size:18px;color:var(--gold-deep);
+    opacity:0;transform:scale(.8);transition:opacity .2s,transform .2s}
+  .combo.on{opacity:1;transform:scale(1)}
+  .pauseBtn{background:transparent;border:1px solid var(--line);border-radius:10px;cursor:pointer;
+    padding:7px 12px;font-family:"Baloo 2";font-weight:600;color:var(--ink-soft);font-size:13px}
+  .pauseBtn:hover{border-color:var(--gold);color:var(--ink)}
+
+  .timerWrap{height:12px;background:#EFE0C6;border-radius:999px;overflow:hidden;margin-bottom:6px;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,.06)}
+  .timerBar{height:100%;width:100%;border-radius:999px;background:linear-gradient(90deg,var(--teal),#46b9aa);
+    transition:width .12s linear,background .3s}
+  .timerBar.mid{background:linear-gradient(90deg,var(--gold),#f0b94a)}
+  .timerBar.low{background:linear-gradient(90deg,var(--coral),#ef8068);animation:pulseBar .6s infinite}
+  @keyframes pulseBar{50%{opacity:.6}}
+  .roundLabel{font-family:"Baloo 2";font-weight:600;font-size:13px;color:var(--ink-soft);
+    text-align:center;margin:2px 0 14px;letter-spacing:.3px}
+  .roundLabel b{color:var(--gold-deep)}
+
+  .columns{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  .col h2{font-family:"Baloo 2";font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:1.4px;
+    color:var(--ink-soft);margin:0 0 9px;padding-left:3px}
+  .stack{display:flex;flex-direction:column;gap:9px}
+  .card{position:relative;text-align:left;width:100%;cursor:pointer;background:var(--card);
+    border:1.5px solid var(--line);border-radius:13px;padding:12px 14px;font-family:inherit;color:var(--ink);
+    box-shadow:0 2px 7px var(--shadow);transition:transform .13s,border-color .13s,box-shadow .13s,background .2s,opacity .25s}
+  .card:hover{transform:translateY(-2px);border-color:var(--gold-soft);box-shadow:0 6px 15px var(--shadow)}
+  .card:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+  .card .rom{font-family:"Baloo 2";font-weight:700;font-size:17px;line-height:1.2;display:block}
+  .card .en{font-size:15px;font-weight:500;line-height:1.3;display:block}
+  .card .kn{display:block;font-family:"Baloo Tamma 2";font-weight:500;font-size:15px;color:var(--gold-deep);
+    max-height:0;opacity:0;overflow:hidden;transition:max-height .3s,opacity .3s,margin .3s}
+  .card .truth{display:block;font-size:12.5px;font-weight:600;color:var(--coral);max-height:0;opacity:0;overflow:hidden;
+    transition:max-height .25s,opacity .25s,margin .25s}
+  .card.selected{border-color:var(--gold);background:#FFF8EC;box-shadow:0 0 0 3px var(--gold-soft)}
+  .card.matched{border-color:var(--teal);background:var(--teal-soft);cursor:default;box-shadow:none}
+  .card.matched:hover{transform:none}
+  .card.matched .kn{max-height:36px;opacity:1;margin-top:4px}
+  .card.matched::after{content:"✓";position:absolute;top:9px;right:11px;color:var(--teal);font-weight:700;font-size:14px}
+  .card .replay{position:absolute;top:7px;right:9px;border:none;background:transparent;cursor:pointer;
+    font-size:14px;opacity:0;transition:opacity .2s;padding:2px}
+  .card.matched:hover .replay{opacity:.7}
+  .card.matched:hover::after{opacity:0}
+  .card.wrong{border-color:var(--coral);background:#FCEDE9;animation:shake .4s}
+  .card.wrong .truth{max-height:26px;opacity:1;margin-top:4px}
+  @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+  @keyframes pop{0%{transform:scale(1)}45%{transform:scale(1.05)}100%{transform:scale(1)}}
+  .card.justmatched{animation:pop .34s ease}
+
+  .float{position:fixed;pointer-events:none;font-family:"Baloo 2";font-weight:800;font-size:20px;
+    color:var(--gold-deep);z-index:50;animation:floatUp .8s ease forwards;text-shadow:0 1px 0 #fff}
+  @keyframes floatUp{0%{opacity:0;transform:translateY(4px) scale(.9)}15%{opacity:1}100%{opacity:0;transform:translateY(-34px) scale(1.05)}}
+
+  .overlay{position:fixed;inset:0;background:rgba(58,34,51,.34);backdrop-filter:blur(3px);
+    display:none;align-items:center;justify-content:center;padding:20px;z-index:100}
+  .overlay.show{display:flex}
+  .panel{background:var(--card);border-radius:22px;padding:30px 28px;max-width:440px;width:100%;
+    text-align:center;box-shadow:0 24px 60px rgba(58,34,51,.3);animation:pop .35s ease}
+  .panel .big{font-family:"Baloo 2";font-weight:800;font-size:29px;margin:0 0 4px;color:var(--ink)}
+  .panel .big em{color:var(--gold);font-style:normal}
+  .panel p{color:var(--ink-soft);font-size:15px;line-height:1.55;margin:0 auto 18px;max-width:36ch}
+  .scoreRow{display:flex;gap:12px;justify-content:center;margin:16px 0 20px}
+  .scoreRow .box{background:#FBF1E0;border:1px solid var(--line);border-radius:14px;padding:12px 18px;min-width:92px}
+  .scoreRow .box .n{font-family:"Baloo 2";font-weight:800;font-size:26px;color:var(--gold-deep);line-height:1}
+  .scoreRow .box .l{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--ink-soft);margin-top:5px}
+  .how{text-align:left;background:#FBF1E0;border-radius:13px;padding:13px 15px;margin:0 0 20px;font-size:13.5px;
+    color:var(--ink-soft);line-height:1.65}
+  .how b{color:var(--ink)}
+  .play{font-family:"Baloo 2";font-weight:700;font-size:17px;border:none;cursor:pointer;border-radius:999px;
+    padding:14px 34px;background:var(--gold);color:#fff;box-shadow:0 6px 18px rgba(226,154,31,.38);transition:transform .12s,background .15s}
+  .play:hover{background:var(--gold-deep)}
+  .play:active{transform:translateY(1px)}
+
+  .toast{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.8);z-index:90;
+    background:var(--ink);color:#fff;font-family:"Baloo 2";font-weight:700;font-size:22px;
+    padding:16px 30px;border-radius:16px;opacity:0;pointer-events:none;box-shadow:0 16px 40px rgba(0,0,0,.25)}
+  .toast.show{animation:toast 1s ease}
+  .toast em{color:var(--gold-soft);font-style:normal}
+  @keyframes toast{0%{opacity:0;transform:translate(-50%,-50%) scale(.8)}20%{opacity:1;transform:translate(-50%,-50%) scale(1)}80%{opacity:1}100%{opacity:0;transform:translate(-50%,-58%) scale(1)}}
+
+  footer{margin-top:26px;text-align:center;color:var(--ink-soft);font-size:12px;line-height:1.5}
+  @media (max-width:560px){.card .rom{font-size:16px}.card .en{font-size:14px}.columns{gap:9px}.stat .v{font-size:18px}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:opacity .2s,max-height .2s!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Kannada <em>Rush</em></h1>
+    <span class="tag">ಬೆಂಗಳೂರು ಪದಗಳು</span>
+    <button class="sound" id="soundBtn" aria-label="Toggle sound">🔊 Sound</button>
+  </header>
+
+  <div class="hud">
+    <div class="stat"><span class="k">Level</span><span class="v" id="levelV">1</span></div>
+    <div class="sep"></div>
+    <div class="stat"><span class="k">Score</span><span class="v" id="scoreV">0</span></div>
+    <div class="sep"></div>
+    <div class="stat"><span class="k">Lives</span><span class="v hearts" id="heartsV">♥♥♥♥♥</span></div>
+    <span class="combo" id="comboV">Combo ×2</span>
+    <button class="pauseBtn" id="pauseBtn">Pause</button>
+  </div>
+
+  <div class="timerWrap"><div class="timerBar" id="timerBar"></div></div>
+  <div class="roundLabel" id="roundLabel">Get ready…</div>
+
+  <div class="columns">
+    <div class="col"><h2>Kannada word</h2><div class="stack" id="leftCol"></div></div>
+    <div class="col"><h2>Tap the meaning</h2><div class="stack" id="rightCol"></div></div>
+  </div>
+
+  <footer>Tap a Kannada word to hear it, then tap its meaning before the clock runs out. Some meanings are decoys, so listen and read carefully.</footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="overlay show" id="overlay">
+  <div class="panel">
+    <p class="big" id="panelTitle">Bangalore <em>words</em></p>
+    <p id="panelText">Everyday spoken Kannada: verbs, question words, and the slang you actually hear on the street.</p>
+    <div class="scoreRow" id="scoreRow" style="display:none">
+      <div class="box"><div class="n" id="finalScore">0</div><div class="l">Score</div></div>
+      <div class="box"><div class="n" id="finalLevel">1</div><div class="l">Level</div></div>
+      <div class="box"><div class="n" id="bestScore">0</div><div class="l">Best</div></div>
+    </div>
+    <div class="how" id="howBox">
+      <b>How to play</b><br>
+      • Tap a Kannada word; it is spoken aloud so you train the sound.<br>
+      • Then tap its English meaning. Correct = points × your combo.<br>
+      • A wrong match costs a life and breaks your combo.<br>
+      • Clear a round to level up: more words and tighter time, but you regain a life and every first-try match carries a little time into the next round.
+    </div>
+    <button class="play" id="playBtn">Start</button>
+  </div>
+</div>
+
+<script>
+const POOL = [
+  // everyday verbs (casual spoken form)
+  {t:"verbs", rom:"maadu",    en:"do, make",             kn:"ಮಾಡು"},
+  {t:"verbs", rom:"kodu",     en:"give",                 kn:"ಕೊಡು"},
+  {t:"verbs", rom:"tago",     en:"take",                 kn:"ತಗೊ"},
+  {t:"verbs", rom:"karko",    en:"take / bring along",   kn:"ಕರ್ಕೊ"},
+  {t:"verbs", rom:"baa",      en:"come",                 kn:"ಬಾ"},
+  {t:"verbs", rom:"hogu",     en:"go",                   kn:"ಹೋಗು"},
+  {t:"verbs", rom:"nodu",     en:"see, look",            kn:"ನೋಡು"},
+  {t:"verbs", rom:"helu",     en:"say, tell",            kn:"ಹೇಳು"},
+  {t:"verbs", rom:"kelu",     en:"ask; listen",          kn:"ಕೇಳು"},
+  {t:"verbs", rom:"tinnu",    en:"eat",                  kn:"ತಿನ್ನು"},
+  {t:"verbs", rom:"kudi",     en:"drink",                kn:"ಕುಡಿ"},
+  {t:"verbs", rom:"odu",      en:"read, study",          kn:"ಓದು"},
+  {t:"verbs", rom:"bare",     en:"write",                kn:"ಬರೆ"},
+  {t:"verbs", rom:"kootko",   en:"sit down",             kn:"ಕೂತ್ಕೊ"},
+  {t:"verbs", rom:"nillu",    en:"stop, wait, stand",    kn:"ನಿಲ್ಲು"},
+  {t:"verbs", rom:"iru",      en:"be, stay, wait",       kn:"ಇರು"},
+  {t:"verbs", rom:"bidu",     en:"leave, let go",        kn:"ಬಿಡು"},
+  {t:"verbs", rom:"maadko",   en:"manage, do yourself",  kn:"ಮಾಡ್ಕೊ"},
+  {t:"verbs", rom:"tilko",    en:"understand, get it",   kn:"ತಿಳ್ಕೊ"},
+  {t:"verbs", rom:"maataadu", en:"talk, speak",          kn:"ಮಾತಾಡು"},
+  {t:"verbs", rom:"kalisu",   en:"send",                 kn:"ಕಳಿಸು"},
+  {t:"verbs", rom:"sigu",     en:"meet, be found",       kn:"ಸಿಗು"},
+  // is / want / know (state words)
+  {t:"states", rom:"beku",     en:"want, need",          kn:"ಬೇಕು"},
+  {t:"states", rom:"beda",     en:"don't want",          kn:"ಬೇಡ"},
+  {t:"states", rom:"ide",      en:"is, there is",        kn:"ಇದೆ"},
+  {t:"states", rom:"illa",     en:"isn't, no",           kn:"ಇಲ್ಲ"},
+  {t:"states", rom:"gottu",    en:"I know",              kn:"ಗೊತ್ತು"},
+  {t:"states", rom:"gottilla", en:"I don't know",        kn:"ಗೊತ್ತಿಲ್ಲ"},
+  {t:"states", rom:"aaytu",    en:"done, happened",      kn:"ಆಯ್ತು"},
+  {t:"states", rom:"aagutte",  en:"will happen",         kn:"ಆಗುತ್ತೆ"},
+  {t:"states", rom:"barutte",  en:"comes; know how to",  kn:"ಬರುತ್ತೆ"},
+  {t:"states", rom:"baralla",  en:"doesn't come",        kn:"ಬರಲ್ಲ"},
+  {t:"states", rom:"saaku",    en:"enough",              kn:"ಸಾಕು"},
+  // pronouns & question words
+  {t:"qwords", rom:"naanu",    en:"I",                   kn:"ನಾನು"},
+  {t:"qwords", rom:"neenu",    en:"you (casual)",        kn:"ನೀನು"},
+  {t:"qwords", rom:"neevu",    en:"you (polite)",        kn:"ನೀವು"},
+  {t:"qwords", rom:"avanu",    en:"he",                  kn:"ಅವನು"},
+  {t:"qwords", rom:"avalu",    en:"she",                 kn:"ಅವಳು"},
+  {t:"qwords", rom:"idu",      en:"this",                kn:"ಇದು"},
+  {t:"qwords", rom:"adu",      en:"that",                kn:"ಅದು"},
+  {t:"qwords", rom:"enu",      en:"what",                kn:"ಏನು"},
+  {t:"qwords", rom:"yaaru",    en:"who",                 kn:"ಯಾರು"},
+  {t:"qwords", rom:"yaake",    en:"why",                 kn:"ಯಾಕೆ"},
+  {t:"qwords", rom:"hege",     en:"how",                 kn:"ಹೇಗೆ"},
+  {t:"qwords", rom:"eshtu",    en:"how much / many",     kn:"ಎಷ್ಟು"},
+  {t:"qwords", rom:"elli",     en:"where",               kn:"ಎಲ್ಲಿ"},
+  {t:"qwords", rom:"yaavaga",  en:"when",                kn:"ಯಾವಾಗ"},
+  // everyday words (adverbs, connectors, here/there)
+  {t:"words", rom:"illi",     en:"here",                 kn:"ಇಲ್ಲಿ"},
+  {t:"words", rom:"alli",     en:"there",                kn:"ಅಲ್ಲಿ"},
+  {t:"words", rom:"swalpa",   en:"a little, some",       kn:"ಸ್ವಲ್ಪ"},
+  {t:"words", rom:"tumba",    en:"a lot, very",          kn:"ತುಂಬಾ"},
+  {t:"words", rom:"eega",     en:"now",                  kn:"ಈಗ"},
+  {t:"words", rom:"aamele",   en:"later, afterwards",    kn:"ಆಮೇಲೆ"},
+  {t:"words", rom:"sari",     en:"okay, correct",        kn:"ಸರಿ"},
+  {t:"words", rom:"houdu",    en:"yes",                  kn:"ಹೌದು"},
+  {t:"words", rom:"aadre",    en:"but",                  kn:"ಆದ್ರೆ"},
+  {t:"words", rom:"matte",    en:"again, and then",      kn:"ಮತ್ತೆ"},
+  // Bangalore slang
+  {t:"slang", rom:"guru",       en:"boss, mate",           kn:"ಗುರು"},
+  {t:"slang", rom:"maga",       en:"bro, dude",            kn:"ಮಗ"},
+  {t:"slang", rom:"macha",      en:"bro, dude (Tamil)",    kn:"ಮಚ್ಚ"},
+  {t:"slang", rom:"sakkath",    en:"awesome, superb",      kn:"ಸಕ್ಕತ್"},
+  {t:"slang", rom:"bombat",     en:"excellent, top-class", kn:"ಬೊಂಬಾಟ್"},
+  {t:"slang", rom:"maja",       en:"fun, enjoyment",       kn:"ಮಜಾ"},
+  {t:"slang", rom:"bejaar",     en:"bored, fed up",        kn:"ಬೇಜಾರ್"},
+  {t:"slang", rom:"kirik",      en:"trouble, nuisance",    kn:"ಕಿರಿಕ್"},
+  {t:"slang", rom:"kathe",      en:"gossip, drama",        kn:"ಕಥೆ"},
+  {t:"slang", rom:"nidhana",    en:"slow, easy",           kn:"ನಿಧಾನ"},
+  {t:"slang", rom:"kelsa",      en:"work, job",            kn:"ಕೆಲಸ"},
+  {t:"slang", rom:"yeno",       en:"something, whatever",  kn:"ಏನೋ"},
+  {t:"slang", rom:"sisya",      en:"disciple (to guru)",   kn:"ಶಿಷ್ಯ"},
+  {t:"slang", rom:"tale kettu", en:"annoyed, losing it",   kn:"ತಲೆ ಕೆಟ್ಟು"},
+  {t:"slang", rom:"hoytu",      en:"it's gone, it's over", kn:"ಹೋಯ್ತು"},
+];
+const THEME_NAMES = {
+  verbs:"Everyday verbs", states:"Is, want, know", qwords:"Who, what, where",
+  words:"Everyday words", slang:"Bangalore slang"
+};
+
+const START_TIME=40, MAX_TIME=60, MATCH_TIME=2, WRONG_TIME=2, LEVEL_TIME=8, MAX_LIVES=5, CARRY_PER=0.75;
+
+let level,score,lives,streak,timeLeft,roundMax,remaining,running,paused,selected,best=0,soundOn=true;
+let firstTryCount=0, wrongSinceMatch=false, pendingCarry=0;
+let ticker=null;
+
+const $=id=>document.getElementById(id);
+const leftCol=$('leftCol'), rightCol=$('rightCol');
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
+
+/* ---- audio ---- */
+let voices=[], hasKn=false;
+function loadVoices(){
+  try{
+    voices=speechSynthesis.getVoices();
+    hasKn=voices.some(v=>/kn(-|_|$)/i.test(v.lang)||/kannada/i.test(v.name));
+    updateSoundLabel();
+  }catch(e){}
+}
+if('speechSynthesis' in window){ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }
+function knVoice(){ return voices.find(v=>/kn(-|_|$)/i.test(v.lang)||/kannada/i.test(v.name)); }
+function enVoice(){ return voices.find(v=>/en-?in/i.test(v.lang)) || voices.find(v=>/^en/i.test(v.lang)); }
+function speak(kn, rom){
+  if(!soundOn || !('speechSynthesis' in window)) return;
+  try{
+    if(!voices.length) loadVoices();
+    speechSynthesis.cancel();
+    const kv=knVoice();
+    let u;
+    if(kv){ u=new SpeechSynthesisUtterance(kn); u.voice=kv; u.lang=kv.lang||'kn-IN'; }
+    else {                                   // no Kannada voice: read the romanized form
+      const ev=enVoice();
+      u=new SpeechSynthesisUtterance(rom||kn);
+      if(ev){ u.voice=ev; u.lang=ev.lang; } else u.lang='en-IN';
+    }
+    u.rate=.8;
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+function updateSoundLabel(){
+  const b=$('soundBtn'); if(!b) return;
+  if(!soundOn){ b.textContent='🔇 Muted'; b.removeAttribute('title'); return; }
+  b.textContent = hasKn ? '🔊 Sound' : '🔊 Sound (approx)';
+  b.title = hasKn ? "Using your device's Kannada voice."
+                  : "No Kannada voice on this device; playing an approximate pronunciation from the spelling.";
+}
+
+/* ---- level build ---- */
+function levelConfig(lv){
+  return {
+    pairs: Math.min(4 + (lv-1), 8),
+    decoys: Math.min(1 + Math.floor(lv/2), 5),
+    addTime: lv===1 ? 0 : LEVEL_TIME
+  };
+}
+function buildLevel(){
+  const cfg=levelConfig(level);
+  const themes=shuffle(Object.keys(THEME_NAMES));
+  let theme=themes[0];
+  let pool=POOL.filter(s=>s.t===theme);
+  let pairs=shuffle(pool).slice(0,cfg.pairs);
+  if(pairs.length<cfg.pairs){
+    const extra=shuffle(POOL.filter(s=>!pairs.includes(s))).slice(0,cfg.pairs-pairs.length);
+    pairs=pairs.concat(extra);
+  }
+  pairs=pairs.map((s,i)=>({...s,id:i}));
+  const used=new Set(pairs.map(p=>p.rom));
+  const decoys=shuffle(POOL.filter(s=>!used.has(s.rom))).slice(0,cfg.decoys)
+    .map((s,i)=>({en:s.en,id:'d'+i}));
+
+  leftCol.innerHTML=''; rightCol.innerHTML='';
+  shuffle(pairs).forEach(p=>leftCol.appendChild(leftCard(p)));
+  shuffle(pairs.map(p=>({en:p.en,id:p.id})).concat(decoys)).forEach(r=>rightCol.appendChild(rightCard(r)));
+
+  remaining=pairs.length; selected=null;
+  firstTryCount=0; wrongSinceMatch=false;
+  roundMax=Math.min(MAX_TIME, 12 + cfg.pairs*5) + (pendingCarry||0);
+  timeLeft=roundMax; pendingCarry=0;
+  $('roundLabel').innerHTML=`Level <b>${level}</b> · ${THEME_NAMES[theme]} · ${pairs.length} words`;
+}
+function leftCard(p){
+  const b=document.createElement('button'); b.className='card'; b.dataset.id=p.id; b.dataset.side='L';
+  b.dataset.kn=p.kn; b.dataset.en=p.en; b.dataset.rom=p.rom;
+  b.setAttribute('aria-label','Kannada word: '+p.rom);
+  b.innerHTML=`<span class="rom">${p.rom}</span><span class="truth"></span><span class="kn">${p.kn}</span>`+
+              `<button class="replay" tabindex="-1" aria-label="Replay audio">🔊</button>`;
+  b.addEventListener('click',e=>{
+    if(e.target.classList.contains('replay')){ speak(p.kn,p.rom); e.stopPropagation(); return; }
+    pick(b);
+  });
+  return b;
+}
+function rightCard(r){
+  const b=document.createElement('button'); b.className='card'; b.dataset.id=r.id; b.dataset.side='R';
+  b.setAttribute('aria-label','Meaning: '+r.en);
+  b.innerHTML=`<span class="en">${r.en}</span>`;
+  b.addEventListener('click',()=>pick(b));
+  return b;
+}
+
+/* ---- interaction ---- */
+function pick(el){
+  if(!running||paused||el.classList.contains('matched')) return;
+  if(!selected){ select(el); return; }
+  if(selected===el){ deselect(); return; }
+  if(selected.dataset.side===el.dataset.side){ deselect(); select(el); return; }
+  if(selected.dataset.id===el.dataset.id) correct(selected,el);
+  else wrong(selected,el);
+}
+function select(el){
+  selected=el; el.classList.add('selected'); el.setAttribute('aria-pressed','true');
+  if(el.dataset.side==='L') speak(el.dataset.kn, el.dataset.rom);   // hear the word as you consider it
+}
+function deselect(){ if(selected){selected.classList.remove('selected');selected.removeAttribute('aria-pressed');} selected=null; }
+
+function multiplier(){ return Math.min(5, 1 + Math.floor(streak/2)); }
+
+function correct(a,b){
+  const L = a.dataset.side==='L'?a:b;
+  [a,b].forEach(c=>{c.classList.remove('selected');c.removeAttribute('aria-pressed');
+    c.classList.add('matched','justmatched');c.setAttribute('aria-disabled','true');
+    setTimeout(()=>c.classList.remove('justmatched'),340);});
+  selected=null; streak++;
+  if(!wrongSinceMatch) firstTryCount++;
+  wrongSinceMatch=false;
+  const mult=multiplier(), gain=100*mult;
+  score+=gain; timeLeft=Math.min(roundMax,timeLeft+MATCH_TIME);
+  $('scoreV').textContent=score;
+  showCombo(mult);
+  floatText(b, '+'+gain+(mult>1?' ×'+mult:''));
+  speak(L.dataset.kn, L.dataset.rom);
+  if(--remaining===0) levelUp();
+}
+function wrong(a,b){
+  const L = a.dataset.side==='L'?a:b;
+  lives--; streak=0; wrongSinceMatch=true; updateHearts(); hideCombo();
+  timeLeft=Math.max(0,timeLeft-WRONG_TIME);
+  a.classList.add('wrong'); b.classList.add('wrong');
+  const tr=L.querySelector('.truth'); if(tr){tr.textContent='= '+L.dataset.en;}
+  a.classList.remove('selected'); a.removeAttribute('aria-pressed');
+  setTimeout(()=>{a.classList.remove('wrong');b.classList.remove('wrong');if(tr)tr.textContent='';},760);
+  selected=null;
+  if(lives<=0) gameOver();
+}
+
+function showCombo(m){ const c=$('comboV'); if(m>1){c.textContent='Combo ×'+m;c.classList.add('on');} else hideCombo(); }
+function hideCombo(){ $('comboV').classList.remove('on'); }
+function updateHearts(){ let s='';for(let i=0;i<MAX_LIVES;i++)s+=(i<lives?'♥':'<span class="lost">♥</span>');$('heartsV').innerHTML=s; }
+
+function floatText(near,txt){
+  const r=near.getBoundingClientRect();
+  const f=document.createElement('div'); f.className='float'; f.textContent=txt;
+  f.style.left=(r.left+r.width/2-18)+'px'; f.style.top=(r.top+8)+'px';
+  document.body.appendChild(f); setTimeout(()=>f.remove(),820);
+}
+
+/* ---- flow ---- */
+function levelUp(){
+  pauseTimer();
+  const cleared=level; level++; const bonus=50*cleared; score+=bonus; $('scoreV').textContent=score;
+  const gainedLife = lives<MAX_LIVES;
+  if(gainedLife){ lives++; updateHearts(); }
+  pendingCarry = firstTryCount*CARRY_PER;
+  const carryTxt = pendingCarry>=1 ? ` · +${Math.round(pendingCarry)}s` : '';
+  toast(`Level ${cleared} cleared! <em>+${bonus}${gainedLife?' · +1 ♥':''}${carryTxt}</em>`);
+  setTimeout(()=>{
+    $('levelV').textContent=level;
+    buildLevel(); renderTimer(); resumeTimer();
+  },1050);
+}
+function toast(html){ const t=$('toast'); t.innerHTML=html; t.classList.remove('show'); void t.offsetWidth; t.classList.add('show'); }
+
+/* ---- timer ---- */
+function startTimer(){ pauseTimer(); ticker=setInterval(()=>{
+  if(paused) return;
+  timeLeft-=0.1;
+  if(timeLeft<=0){ timeLeft=0; renderTimer(); gameOver(); return; }
+  renderTimer();
+},100); }
+function pauseTimer(){ if(ticker){clearInterval(ticker);ticker=null;} }
+function resumeTimer(){ startTimer(); }
+function renderTimer(){
+  const bar=$('timerBar'); const pct=Math.max(0,Math.min(1,timeLeft/roundMax))*100;
+  bar.style.width=pct+'%';
+  bar.classList.toggle('low',timeLeft<=10);
+  bar.classList.toggle('mid',timeLeft>10&&timeLeft<=22);
+}
+
+/* ---- game state ---- */
+function newGame(){
+  level=1;score=0;lives=MAX_LIVES;streak=0;timeLeft=START_TIME;running=true;paused=false;
+  $('levelV').textContent=1;$('scoreV').textContent=0;updateHearts();hideCombo();
+  $('pauseBtn').textContent='Pause';
+  buildLevel(); renderTimer(); startTimer();
+}
+function gameOver(){
+  running=false; pauseTimer(); deselect();
+  best=Math.max(best,score);
+  $('panelTitle').innerHTML=lives<=0?'Out of lives!':'Time\'s up!';
+  $('panelText').textContent = score>=800?'Sakkath run. Your ear is getting quick.':'Every round trains the reflex. Ondsala more?';
+  $('howBox').style.display='none'; $('scoreRow').style.display='flex';
+  $('finalScore').textContent=score; $('finalLevel').textContent=level; $('bestScore').textContent=best;
+  $('playBtn').textContent='Play again';
+  $('overlay').classList.add('show');
+}
+
+/* ---- controls ---- */
+$('playBtn').addEventListener('click',()=>{ $('overlay').classList.remove('show'); newGame(); });
+$('pauseBtn').addEventListener('click',()=>{
+  if(!running) return;
+  paused=!paused; $('pauseBtn').textContent=paused?'Resume':'Pause';
+  $('roundLabel').style.opacity=paused?'.4':'1';
+});
+$('soundBtn').addEventListener('click',()=>{
+  soundOn=!soundOn;
+  if(!soundOn && 'speechSynthesis' in window) speechSynthesis.cancel();
+  updateSoundLabel();
+});
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&running){$('pauseBtn').click();} });
+</script>
+</body>
+</html>

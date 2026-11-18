@@ -1,0 +1,1842 @@
+[
+  {
+    "word": "dad",
+    "gloss": "FATHERwig",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/452.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FA/FATHER-452.mp4"
+  },
+  {
+    "word": "brother",
+    "gloss": "BROTHERix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/52.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BR/BROTHER-52.mp4"
+  },
+  {
+    "word": "grandpa",
+    "gloss": "GRANDFATHER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1863.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GR/GRANDFATHER-1863.mp4"
+  },
+  {
+    "word": "grandmother",
+    "gloss": "GRANDMOTHER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1862.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GR/GRANDMOTHER-1862.mp4"
+  },
+  {
+    "word": "mom",
+    "gloss": "MOTHERwig",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/509.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MOTHER-509.mp4"
+  },
+  {
+    "word": "marriage",
+    "gloss": "MARRYstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1625.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MA/MARRY-1625.mp4"
+  },
+  {
+    "word": "single",
+    "gloss": "SINGLEix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1068.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SI/SINGLE-1068.mp4"
+  },
+  {
+    "word": "want",
+    "gloss": "WANT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1409.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WA/WANT-1409.mp4"
+  },
+  {
+    "word": "don't want",
+    "gloss": "DON'T-WANT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/442.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DO/DON'T-WANT-442.mp4"
+  },
+  {
+    "word": "have",
+    "gloss": "HAVE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1779.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HA/HAVE-1779.mp4"
+  },
+  {
+    "word": "don't like",
+    "gloss": "DON'T-LIKE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/114.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DO/DON'T-LIKE-114.mp4"
+  },
+  {
+    "word": "problem",
+    "gloss": "PROBLEMtwist",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2483.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PR/PROBLEM_1-2483.mp4"
+  },
+  {
+    "word": "need",
+    "gloss": "NEED",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/194.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NE/NEED-194.mp4"
+  },
+  {
+    "word": "don't need",
+    "gloss": "DON'T-NEED",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1272.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DO/DON'T-NEED-1272.mp4"
+  },
+  {
+    "word": "leave",
+    "gloss": "LEAVEo",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/471.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LE/LEAVE-471.mp4"
+  },
+  {
+    "word": "drive",
+    "gloss": "DRIVEpro",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/445.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DR/DRIVE-445.mp4"
+  },
+  {
+    "word": "see",
+    "gloss": "SEE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/538.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SE/SEE-538.mp4"
+  },
+  {
+    "word": "walk",
+    "gloss": "WALKb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/314.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WA/WALK-314.mp4"
+  },
+  {
+    "word": "run",
+    "gloss": "RUNasym",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/243.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RU/RUN-243.mp4"
+  },
+  {
+    "word": "drunk",
+    "gloss": "DRUNK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2750.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DR/DRUNK-2750.mp4"
+  },
+  {
+    "word": "massage",
+    "gloss": "RUB",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2288.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RU/RUB-2288.mp4"
+  },
+  {
+    "word": "make",
+    "gloss": "MAKEext",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/502.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MA/MAKE-502.mp4"
+  },
+  {
+    "word": "sleep",
+    "gloss": "SLEEPo",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/709.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SL/SLEEP-709.mp4"
+  },
+  {
+    "word": "sleepy",
+    "gloss": "SLEEPY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/3450.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SL/SLEEPY-3450.mp4"
+  },
+  {
+    "word": "go",
+    "gloss": "GOix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/469.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GO/GO-469.mp4"
+  },
+  {
+    "word": "stay",
+    "gloss": "STAY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/543.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/STAY-543.mp4"
+  },
+  {
+    "word": "class",
+    "gloss": "CLASS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/585.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CL/CLASS-585.mp4"
+  },
+  {
+    "word": "can",
+    "gloss": "CAN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/426.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CA/CAN-426.mp4"
+  },
+  {
+    "word": "can't",
+    "gloss": "CANNOT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/427.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CA/CANNOT-427.mp4"
+  },
+  {
+    "word": "where",
+    "gloss": "WHERE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1427.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WH/WHERE-1427.mp4"
+  },
+  {
+    "word": "which",
+    "gloss": "WHICH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1428.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WH/WHICH-1428.mp4"
+  },
+  {
+    "word": "nice to meet you",
+    "gloss": "NICE + MEET + IX",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/198.html",
+    "parts": [
+      {
+        "gloss": "NICE",
+        "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/198.html",
+        "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NI/NICE-198.mp4"
+      },
+      {
+        "gloss": "MEET",
+        "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1620.html",
+        "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ME/MEET-1620.mp4"
+      },
+      {
+        "gloss": "IX",
+        "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1712.html",
+        "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/IX/IX-1712.mp4"
+      }
+    ]
+  },
+  {
+    "word": "text",
+    "gloss": "TEXT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1196.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TE/TEXT-1196.mp4"
+  },
+  {
+    "word": "number",
+    "gloss": "NUMBER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/782.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NU/NUMBER-782.mp4"
+  },
+  {
+    "word": "fun",
+    "gloss": "FUN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/141.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FU/FUN-141.mp4"
+  },
+  {
+    "word": "cute",
+    "gloss": "CUTEnoth",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/438.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CU/CUTE_1or2-438.mp4"
+  },
+  {
+    "word": "smart",
+    "gloss": "SMART",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/710.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SM/SMART-710.mp4"
+  },
+  {
+    "word": "nice / kind",
+    "gloss": "NICE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/198.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NI/NICE-198.mp4"
+  },
+  {
+    "word": "coffee",
+    "gloss": "COFFEE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2035.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COFFEE-2035.mp4"
+  },
+  {
+    "word": "chocolate",
+    "gloss": "CHOCOLATE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/77.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CH/CHOCOLATE-77.mp4"
+  },
+  {
+    "word": "maybe",
+    "gloss": "MAYBE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/505.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MA/MAYBE-505.mp4"
+  },
+  {
+    "word": "library",
+    "gloss": "LIBRARY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/567.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LI/LIBRARY-567.mp4"
+  },
+  {
+    "word": "good luck",
+    "gloss": "LUCKY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1632.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LU/LUCKY-1632.mp4"
+  },
+  {
+    "word": "help",
+    "gloss": "HELPstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/483.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HE/HELP-483.mp4"
+  },
+  {
+    "word": "please",
+    "gloss": "PLEASE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/527.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PL/PLEASE-527.mp4"
+  },
+  {
+    "word": "thank you",
+    "gloss": "THANK-YOU",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1198.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TH/THANK-YOU-1198.mp4"
+  },
+  {
+    "word": "good",
+    "gloss": "GOOD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/472.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GO/GOOD-472.mp4"
+  },
+  {
+    "word": "again",
+    "gloss": "AGAIN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/400.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AG/AGAIN-400.mp4"
+  },
+  {
+    "word": "water",
+    "gloss": "WATER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1414.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WA/WATER-1414.mp4"
+  },
+  {
+    "word": "cheese",
+    "gloss": "CHEESE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/430.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CH/CHEESE-430.mp4"
+  },
+  {
+    "word": "egg",
+    "gloss": "EGG",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/447.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EG/EGG-447.mp4"
+  },
+  {
+    "word": "means",
+    "gloss": "MEANING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/186.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ME/MEANING-186.mp4"
+  },
+  {
+    "word": "fingerspell",
+    "gloss": "FINGERSPELL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/621.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FINGERSPELL-621.mp4"
+  },
+  {
+    "word": "dream",
+    "gloss": "DREAMix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/578.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DR/DREAM-578.mp4"
+  },
+  {
+    "word": "star",
+    "gloss": "STAR",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/274.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/STAR-274.mp4"
+  },
+  {
+    "word": "planet",
+    "gloss": "PLANET",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/784.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PL/PLANET-784.mp4"
+  },
+  {
+    "word": "signing",
+    "gloss": "SIGN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/256.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SI/SIGN-256.mp4"
+  },
+  {
+    "word": "hear",
+    "gloss": "HEARING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1773.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HE/HEARING-1773.mp4"
+  },
+  {
+    "word": "smell",
+    "gloss": "SMELL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1076.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SM/SMELL-1076.mp4"
+  },
+  {
+    "word": "taste",
+    "gloss": "TASTE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/290.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TA/TASTE-290.mp4"
+  },
+  {
+    "word": "idea",
+    "gloss": "IDEA",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1750.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ID/IDEA-1750.mp4"
+  },
+  {
+    "word": "wait",
+    "gloss": "WAIT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1405.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WA/WAIT-1405.mp4"
+  },
+  {
+    "word": "car",
+    "gloss": "CAR",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/428.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CA/CAR-428.mp4"
+  },
+  {
+    "word": "talk",
+    "gloss": "TALK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/289.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TA/TALK-289.mp4"
+  },
+  {
+    "word": "we",
+    "gloss": "WEix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1416.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WE/WE-1416.mp4"
+  },
+  {
+    "word": "happy",
+    "gloss": "HAPPY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/476.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HA/HAPPY-476.mp4"
+  },
+  {
+    "word": "fine",
+    "gloss": "FINErep",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/455.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FINE-455.mp4"
+  },
+  {
+    "word": "bad",
+    "gloss": "BAD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/29.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BA/BAD-29.mp4"
+  },
+  {
+    "word": "bored",
+    "gloss": "BORED",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2124.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BO/BORED-2124.mp4"
+  },
+  {
+    "word": "busy",
+    "gloss": "BUSY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1981.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BU/BUSY-1981.mp4"
+  },
+  {
+    "word": "confused",
+    "gloss": "CONFUSEDnoix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1124.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/CONFUSED-1124.mp4"
+  },
+  {
+    "word": "excited",
+    "gloss": "EXCITED",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1344.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EX/EXCITED-1344.mp4"
+  },
+  {
+    "word": "hungry",
+    "gloss": "DESIRE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/488.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DE/DESIRE-488.mp4"
+  },
+  {
+    "word": "thirsty",
+    "gloss": "THIRSTY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/293.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TH/THIRSTY-293.mp4"
+  },
+  {
+    "word": "mad",
+    "gloss": "MADstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/182.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MA/MAD-182.mp4"
+  },
+  {
+    "word": "sad",
+    "gloss": "SAD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/245.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SA/SAD-245.mp4"
+  },
+  {
+    "word": "live",
+    "gloss": "LIVEl",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1641.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LI/LIVE-1641.mp4"
+  },
+  {
+    "word": "curious",
+    "gloss": "CURIOUSf",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1194.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CU/CURIOUS-1194.mp4"
+  },
+  {
+    "word": "ask",
+    "gloss": "ASKix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/22.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AS/ASK-22.mp4"
+  },
+  {
+    "word": "buy",
+    "gloss": "BUYb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/424.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BU/BUY-424.mp4"
+  },
+  {
+    "word": "hug",
+    "gloss": "HUG",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/154.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HU/HUG-154.mp4"
+  },
+  {
+    "word": "bicycle",
+    "gloss": "BICYCLE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/379.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BI/BICYCLE-379.mp4"
+  },
+  {
+    "word": "clothing",
+    "gloss": "CLOTHES",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/91.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CL/CLOTHES-91.mp4"
+  },
+  {
+    "word": "earrings",
+    "gloss": "EARRINGbo",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1289.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EA/EARRING-1289.mp4"
+  },
+  {
+    "word": "debate / argue",
+    "gloss": "ARGUE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/740.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AR/ARGUE-740.mp4"
+  },
+  {
+    "word": "anxious",
+    "gloss": "ANXIOUS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/4649.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AN/ANXIOUS-4649.mp4"
+  },
+  {
+    "word": "read",
+    "gloss": "READ",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/341.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/READ-341.mp4"
+  },
+  {
+    "word": "wake up",
+    "gloss": "AWAKE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2354.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AW/AWAKE-2354.mp4"
+  },
+  {
+    "word": "when",
+    "gloss": "WHEN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1426.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WH/WHEN-1426.mp4"
+  },
+  {
+    "word": "ready",
+    "gloss": "READY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/33.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/READY-33.mp4"
+  },
+  {
+    "word": "call",
+    "gloss": "CALL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/65.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CA/CALL-65.mp4"
+  },
+  {
+    "word": "work",
+    "gloss": "WORK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1450.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WO/WORK-1450.mp4"
+  },
+  {
+    "word": "focus",
+    "gloss": "FOCUS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1487.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FO/FOCUS-1487.mp4"
+  },
+  {
+    "word": "write",
+    "gloss": "WRITEbo",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1467.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WR/WRITE-1467.mp4"
+  },
+  {
+    "word": "exercise",
+    "gloss": "EXERCISEpro",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/351.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EX/EXERCISE-351.mp4"
+  },
+  {
+    "word": "gym",
+    "gloss": "PHYS-ED",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2392.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PH/PHYS-ED-2392.mp4"
+  },
+  {
+    "word": "play",
+    "gloss": "PLAY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/526.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PL/PLAY-526.mp4"
+  },
+  {
+    "word": "poetry",
+    "gloss": "EXPRESS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1363.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EX/EXPRESS-1363.mp4"
+  },
+  {
+    "word": "time",
+    "gloss": "TIME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1233.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TI/TIME-1233.mp4"
+  },
+  {
+    "word": "sorry",
+    "gloss": "SORRY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/566.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SO/SORRY-566.mp4"
+  },
+  {
+    "word": "sports",
+    "gloss": "SPORTS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/587.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SP/SPORTS-587.mp4"
+  },
+  {
+    "word": "show",
+    "gloss": "SHOW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/254.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SH/SHOW-254.mp4"
+  },
+  {
+    "word": "come",
+    "gloss": "COMEstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/434.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COME-434.mp4"
+  },
+  {
+    "word": "hair",
+    "gloss": "HAIR",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1848.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HA/HAIR-1848.mp4"
+  },
+  {
+    "word": "create",
+    "gloss": "CREATE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1188.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CR/CREATE-1188.mp4"
+  },
+  {
+    "word": "dance",
+    "gloss": "DANCE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1207.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DA/DANCE-1207.mp4"
+  },
+  {
+    "word": "move",
+    "gloss": "MOVE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/528.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MOVE-528.mp4"
+  },
+  {
+    "word": "but",
+    "gloss": "BUT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/61.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BU/BUT-61.mp4"
+  },
+  {
+    "word": "hope",
+    "gloss": "HOPEnoix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1760.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HO/HOPE-1760.mp4"
+  },
+  {
+    "word": "research",
+    "gloss": "RESEARCHix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/963.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/RESEARCH-963.mp4"
+  },
+  {
+    "word": "joke",
+    "gloss": "KID",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/163.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/KI/KID-163.mp4"
+  },
+  {
+    "word": "look",
+    "gloss": "LOOK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/500.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LO/LOOK-500.mp4"
+  },
+  {
+    "word": "stand",
+    "gloss": "STAND",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/273.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/STAND-273.mp4"
+  },
+  {
+    "word": "pill",
+    "gloss": "PILL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/3028.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PI/PILL-3028.mp4"
+  },
+  {
+    "word": "period",
+    "gloss": "PERIOD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/887.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PE/PERIOD-887.mp4"
+  },
+  {
+    "word": "question",
+    "gloss": "QUESTION",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/3775.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/QU/QUESTION-3775.mp4"
+  },
+  {
+    "word": "minute",
+    "gloss": "MINUTEix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/655.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MI/MINUTE-655.mp4"
+  },
+  {
+    "word": "hour",
+    "gloss": "HOURneut",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1757.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HO/HOUR-1757.mp4"
+  },
+  {
+    "word": "tomorrow",
+    "gloss": "TOMORROW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/301.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TO/TOMORROW-301.mp4"
+  },
+  {
+    "word": "today",
+    "gloss": "TODAY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/299.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TO/TODAY-299.mp4"
+  },
+  {
+    "word": "how",
+    "gloss": "HOW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/487.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HO/HOW-487.mp4"
+  },
+  {
+    "word": "much / a lot",
+    "gloss": "MUCH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/13.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MU/MUCH-13.mp4"
+  },
+  {
+    "word": "day",
+    "gloss": "DAYdown",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/102.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DA/DAY-102.mp4"
+  },
+  {
+    "word": "week",
+    "gloss": "WEEK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1418.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WE/WEEK-1418.mp4"
+  },
+  {
+    "word": "mistake",
+    "gloss": "MISTAKE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/188.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MI/MISTAKE-188.mp4"
+  },
+  {
+    "word": "pay",
+    "gloss": "PAYix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/878.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PA/PAY-878.mp4"
+  },
+  {
+    "word": "luck",
+    "gloss": "LUCK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1633.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LU/LUCK-1633.mp4"
+  },
+  {
+    "word": "machine",
+    "gloss": "MACHINE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/771.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MA/MACHINE-771.mp4"
+  },
+  {
+    "word": "engineering",
+    "gloss": "ENGINEERING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1988.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EN/ENGINEERING-1988.mp4"
+  },
+  {
+    "word": "psychology",
+    "gloss": "PSYCHOLOGY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2946.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PS/PSYCHOLOGY-2946.mp4"
+  },
+  {
+    "word": "game",
+    "gloss": "GAME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/463.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GA/GAME-463.mp4"
+  },
+  {
+    "word": "video game",
+    "gloss": "VIDEO-GAME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1969.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/VI/VIDEO-GAME-1969.mp4"
+  },
+  {
+    "word": "clean",
+    "gloss": "CLEAN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/431.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CL/CLEAN-431.mp4"
+  },
+  {
+    "word": "miss",
+    "gloss": "MISS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1603.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MI/MISS-1603.mp4"
+  },
+  {
+    "word": "climb",
+    "gloss": "CLIMB",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/4187.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CL/CLIMB-4187.mp4"
+  },
+  {
+    "word": "think",
+    "gloss": "THINK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/398.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TH/THINK-398.mp4"
+  },
+  {
+    "word": "feel",
+    "gloss": "FEEL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/624.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FE/FEEL-624.mp4"
+  },
+  {
+    "word": "peanut butter",
+    "gloss": "PEANUT-BUTTER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/880.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PE/PEANUT-BUTTER-880.mp4"
+  },
+  {
+    "word": "silence",
+    "gloss": "QUIET",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/233.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/QU/QUIET-233.mp4"
+  },
+  {
+    "word": "slow",
+    "gloss": "SLOW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/261.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SL/SLOW-261.mp4"
+  },
+  {
+    "word": "fast",
+    "gloss": "FASTonex",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/130.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FA/FAST-130.mp4"
+  },
+  {
+    "word": "light",
+    "gloss": "LIGHT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/497.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LI/LIGHT-497.mp4"
+  },
+  {
+    "word": "enlighten",
+    "gloss": "INSPIRE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1732.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/IN/INSPIRE-1732.mp4"
+  },
+  {
+    "word": "cook",
+    "gloss": "COOK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2584.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COOK-2584.mp4"
+  },
+  {
+    "word": "sit",
+    "gloss": "SIT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/541.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SI/SIT-541.mp4"
+  },
+  {
+    "word": "jump",
+    "gloss": "JUMPup",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/159.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/JU/JUMP-159.mp4"
+  },
+  {
+    "word": "fire",
+    "gloss": "FIREstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/457.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FIRE-457.mp4"
+  },
+  {
+    "word": "school",
+    "gloss": "SCHOOL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/247.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SC/SCHOOL-247.mp4"
+  },
+  {
+    "word": "picture",
+    "gloss": "PICTURE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/215.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PI/PICTURE-215.mp4"
+  },
+  {
+    "word": "phone",
+    "gloss": "TELEPHONE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/546.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TE/TELEPHONE-546.mp4"
+  },
+  {
+    "word": "know",
+    "gloss": "KNOWbb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/554.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/KN/KNOW-554.mp4"
+  },
+  {
+    "word": "snack",
+    "gloss": "SNACK-FOOD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2534.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SN/SNACK-FOOD-2534.mp4"
+  },
+  {
+    "word": "dinner",
+    "gloss": "DINNER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/108.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DI/DINNER-108.mp4"
+  },
+  {
+    "word": "vegetable",
+    "gloss": "VEGETABLE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/793.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/VE/VEGETABLE-793.mp4"
+  },
+  {
+    "word": "give",
+    "gloss": "GIVEo",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/466.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GI/GIVE-466.mp4"
+  },
+  {
+    "word": "energy",
+    "gloss": "ENERGY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/798.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EN/ENERGY-798.mp4"
+  },
+  {
+    "word": "spicy",
+    "gloss": "SPICYpro",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/654.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SP/SPICY-654.mp4"
+  },
+  {
+    "word": "lie down",
+    "gloss": "LAY-DOWN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1686.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LA/LAY-DOWN-1686.mp4"
+  },
+  {
+    "word": "exam",
+    "gloss": "EXAM",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/706.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EX/EXAM-706.mp4"
+  },
+  {
+    "word": "bedroom",
+    "gloss": "BEDROOM",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2403.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BE/BEDROOM-2403.mp4"
+  },
+  {
+    "word": "context",
+    "gloss": "CONTEXT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/4186.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/CONTEXT-4186.mp4"
+  },
+  {
+    "word": "new",
+    "gloss": "NEW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/195.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NE/NEW-195.mp4"
+  },
+  {
+    "word": "say",
+    "gloss": "SAYstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/536.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SA/SAY-536.mp4"
+  },
+  {
+    "word": "study",
+    "gloss": "STUDYwig",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1139.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/STUDY-1139.mp4"
+  },
+  {
+    "word": "advice",
+    "gloss": "COUNSEL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1170.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COUNSEL-1170.mp4"
+  },
+  {
+    "word": "scratch",
+    "gloss": "SCRATCH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/249.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SC/SCRATCH-249.mp4"
+  },
+  {
+    "word": "book",
+    "gloss": "BOOK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/418.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BO/BOOK-418.mp4"
+  },
+  {
+    "word": "because",
+    "gloss": "BECAUSEb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/34.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BE/BECAUSE-34.mp4"
+  },
+  {
+    "word": "why",
+    "gloss": "WHY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1431.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WH/WHY-1431.mp4"
+  },
+  {
+    "word": "sing",
+    "gloss": "SING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/3111.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SI/SING-3111.mp4"
+  },
+  {
+    "word": "music",
+    "gloss": "MUSIC",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1584.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MU/MUSIC-1584.mp4"
+  },
+  {
+    "word": "listen",
+    "gloss": "LISTENthree",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/478.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LI/LISTEN-478.mp4"
+  },
+  {
+    "word": "devour",
+    "gloss": "EAT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/399.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EA/EAT-399.mp4"
+  },
+  {
+    "word": "magnificent",
+    "gloss": "WONDERFUL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1447.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WO/WONDERFUL-1447.mp4"
+  },
+  {
+    "word": "for",
+    "gloss": "FOR",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/135.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FO/FOR-135.mp4"
+  },
+  {
+    "word": "weather",
+    "gloss": "WEATHER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2268.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WE/WEATHER-2268.mp4"
+  },
+  {
+    "word": "remind",
+    "gloss": "REMINDasym",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/959.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/REMIND-959.mp4"
+  },
+  {
+    "word": "forget",
+    "gloss": "FORGET",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/565.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FO/FORGET-565.mp4"
+  },
+  {
+    "word": "teacher",
+    "gloss": "TEACHER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/792.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TE/TEACHER-792.mp4"
+  },
+  {
+    "word": "student",
+    "gloss": "STUDENTneut",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/828.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/STUDENT-828.mp4"
+  },
+  {
+    "word": "decide",
+    "gloss": "DECIDEix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1226.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DE/DECIDE-1226.mp4"
+  },
+  {
+    "word": "morning",
+    "gloss": "MORNING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/190.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MORNING-190.mp4"
+  },
+  {
+    "word": "night",
+    "gloss": "ALL-NIGHT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/9.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AL/ALL-NIGHT-9.mp4"
+  },
+  {
+    "word": "first",
+    "gloss": "FIRSTtwist",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/458.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FIRST-458.mp4"
+  },
+  {
+    "word": "last",
+    "gloss": "LAST",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/168.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LA/LAST-168.mp4"
+  },
+  {
+    "word": "start",
+    "gloss": "START",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/619.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/START-619.mp4"
+  },
+  {
+    "word": "yesterday",
+    "gloss": "YESTERDAYth",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/327.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/YE/YESTERDAY-327.mp4"
+  },
+  {
+    "word": "pain / hurt",
+    "gloss": "PAIN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/489.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PA/PAIN-489.mp4"
+  },
+  {
+    "word": "lunch",
+    "gloss": "LUNCH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/181.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LU/LUNCH-181.mp4"
+  },
+  {
+    "word": "breakfast",
+    "gloss": "BREAKFAST",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/50.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BR/BREAKFAST-50.mp4"
+  },
+  {
+    "word": "afternoon",
+    "gloss": "AFTERNOON",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/6.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AF/AFTERNOON-6.mp4"
+  },
+  {
+    "word": "believe",
+    "gloss": "BELIEVEnoix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/576.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BE/BELIEVE-576.mp4"
+  },
+  {
+    "word": "funny",
+    "gloss": "FUNNYu",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/142.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FU/FUNNY-142.mp4"
+  },
+  {
+    "word": "laugh",
+    "gloss": "LAUGH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/380.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LA/LAUGH-380.mp4"
+  },
+  {
+    "word": "teach",
+    "gloss": "TEACHneut",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/291.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TE/TEACH-291.mp4"
+  },
+  {
+    "word": "homework",
+    "gloss": "HOMEWORK",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2937.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HO/HOMEWORK-2937.mp4"
+  },
+  {
+    "word": "home",
+    "gloss": "HOME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/152.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HO/HOME-152.mp4"
+  },
+  {
+    "word": "friend",
+    "gloss": "FRIEND",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/462.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FR/FRIEND-462.mp4"
+  },
+  {
+    "word": "sweet",
+    "gloss": "SWEET",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/281.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SW/SWEET-281.mp4"
+  },
+  {
+    "word": "bring",
+    "gloss": "BRING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/51.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BR/BRING-51.mp4"
+  },
+  {
+    "word": "cookie",
+    "gloss": "COOKIE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/435.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COOKIE-435.mp4"
+  },
+  {
+    "word": "outside",
+    "gloss": "OUTSIDE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/209.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/OU/OUTSIDE-209.mp4"
+  },
+  {
+    "word": "restless",
+    "gloss": "RESTLESS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2188.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/RESTLESS-2188.mp4"
+  },
+  {
+    "word": "from",
+    "gloss": "FROM",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1502.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FR/FROM-1502.mp4"
+  },
+  {
+    "word": "like",
+    "gloss": "LIKE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/498.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LI/LIKE-498.mp4"
+  },
+  {
+    "word": "inside",
+    "gloss": "INSIDE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/490.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/IN/INSIDE-490.mp4"
+  },
+  {
+    "word": "movie",
+    "gloss": "MOVIE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/590.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MOVIE-590.mp4"
+  },
+  {
+    "word": "plan",
+    "gloss": "PLAN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/905.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PL/PLAN-905.mp4"
+  },
+  {
+    "word": "party",
+    "gloss": "PARTYp",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/874.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PA/PARTY-874.mp4"
+  },
+  {
+    "word": "hang out",
+    "gloss": "SOCIALth",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/851.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SO/SOCIAL-851.mp4"
+  },
+  {
+    "word": "alone",
+    "gloss": "ALONE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2065.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AL/ALONE-2065.mp4"
+  },
+  {
+    "word": "lonely",
+    "gloss": "LONELY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2058.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LO/LONELY-2058.mp4"
+  },
+  {
+    "word": "pride",
+    "gloss": "PRIDE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2172.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PR/PRIDE-2172.mp4"
+  },
+  {
+    "word": "more",
+    "gloss": "MORE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/508.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MORE-508.mp4"
+  },
+  {
+    "word": "less",
+    "gloss": "DECREASEb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1235.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DE/DECREASE-1235.mp4"
+  },
+  {
+    "word": "not",
+    "gloss": "NOT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/515.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NO/NOT-515.mp4"
+  },
+  {
+    "word": "now",
+    "gloss": "NOW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/517.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NO/NOW-517.mp4"
+  },
+  {
+    "word": "later",
+    "gloss": "LATERasym",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/169.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LA/LATER-169.mp4"
+  },
+  {
+    "word": "accept",
+    "gloss": "ACCEPT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2045.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AC/ACCEPT-2045.mp4"
+  },
+  {
+    "word": "shower",
+    "gloss": "SHOWER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/340.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SH/SHOWER-340.mp4"
+  },
+  {
+    "word": "brush teeth",
+    "gloss": "TOOTHBRUSH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/303.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TO/TOOTHBRUSH-303.mp4"
+  },
+  {
+    "word": "wear",
+    "gloss": "WEARa",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2199.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WE/WEAR-2199.mp4"
+  },
+  {
+    "word": "different",
+    "gloss": "DIFFERENTstr",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/106.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DI/DIFFERENT-106.mp4"
+  },
+  {
+    "word": "drink",
+    "gloss": "DRINKc",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/119.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DR/DRINK-119.mp4"
+  },
+  {
+    "word": "family",
+    "gloss": "FAMILYf",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1379.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FA/FAMILY-1379.mp4"
+  },
+  {
+    "word": "few",
+    "gloss": "FEW",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/657.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FE/FEW-657.mp4"
+  },
+  {
+    "word": "find",
+    "gloss": "FIND",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2916.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FIND-2916.mp4"
+  },
+  {
+    "word": "finish",
+    "gloss": "FINISH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/456.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FINISH-456.mp4"
+  },
+  {
+    "word": "get",
+    "gloss": "GET",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/464.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/GE/GET-464.mp4"
+  },
+  {
+    "word": "become",
+    "gloss": "BECOME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2100.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BE/BECOME-2100.mp4"
+  },
+  {
+    "word": "little",
+    "gloss": "LITTLE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2183.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LI/LITTLE-2183.mp4"
+  },
+  {
+    "word": "many",
+    "gloss": "MANY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/504.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MA/MANY-504.mp4"
+  },
+  {
+    "word": "name",
+    "gloss": "NAME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/511.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NA/NAME-511.mp4"
+  },
+  {
+    "word": "old",
+    "gloss": "OLD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/202.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/OL/OLD-202.mp4"
+  },
+  {
+    "word": "other",
+    "gloss": "OTHER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/522.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/OT/OTHER-522.mp4"
+  },
+  {
+    "word": "remember",
+    "gloss": "REMEMBERsym",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/532.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/REMEMBER-532.mp4"
+  },
+  {
+    "word": "same",
+    "gloss": "SAME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/534.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SA/SAME-534.mp4"
+  },
+  {
+    "word": "some",
+    "gloss": "SOME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/264.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SO/SOME-264.mp4"
+  },
+  {
+    "word": "try",
+    "gloss": "TRYt",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1322.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TR/TRY-1322.mp4"
+  },
+  {
+    "word": "who",
+    "gloss": "WHObent",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1430.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WH/WHO-1430.mp4"
+  },
+  {
+    "word": "with",
+    "gloss": "WITH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/323.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WI/WITH-323.mp4"
+  },
+  {
+    "word": "woman",
+    "gloss": "WOMANs5",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1446.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WO/WOMAN-1446.mp4"
+  },
+  {
+    "word": "boy",
+    "gloss": "BOY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/377.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BO/BOY-377.mp4"
+  },
+  {
+    "word": "about",
+    "gloss": "ABOUTb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2042.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AB/ABOUT-2042.mp4"
+  },
+  {
+    "word": "after",
+    "gloss": "AFTER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1971.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AF/AFTER-1971.mp4"
+  },
+  {
+    "word": "before",
+    "gloss": "BEFORE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/37.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BE/BEFORE-37.mp4"
+  },
+  {
+    "word": "all",
+    "gloss": "ALL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/11.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AL/ALL-11.mp4"
+  },
+  {
+    "word": "answer",
+    "gloss": "ANSWER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2228.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AN/ANSWER-2228.mp4"
+  },
+  {
+    "word": "better",
+    "gloss": "BETTER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/409.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BE/BETTER-409.mp4"
+  },
+  {
+    "word": "big",
+    "gloss": "BIGb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/410.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BI/BIG-410.mp4"
+  },
+  {
+    "word": "change",
+    "gloss": "CHANGEx",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1053.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CH/CHANGE-1053.mp4"
+  },
+  {
+    "word": "close",
+    "gloss": "CLOSE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/87.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CL/CLOSE-87.mp4"
+  },
+  {
+    "word": "open",
+    "gloss": "OPEN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/520.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/OP/OPEN-520.mp4"
+  },
+  {
+    "word": "cold",
+    "gloss": "COLD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/432.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COLD-432.mp4"
+  },
+  {
+    "word": "early",
+    "gloss": "EARLYix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1288.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EA/EARLY-1288.mp4"
+  },
+  {
+    "word": "late",
+    "gloss": "LATE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1689.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LA/LATE-1689.mp4"
+  },
+  {
+    "word": "easy",
+    "gloss": "EASY",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/684.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EA/EASY-684.mp4"
+  },
+  {
+    "word": "hard",
+    "gloss": "HARD",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/146.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HA/HARD-146.mp4"
+  },
+  {
+    "word": "email",
+    "gloss": "EMAILix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2755.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EM/EMAIL-2755.mp4"
+  },
+  {
+    "word": "enough",
+    "gloss": "ENOUGH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1314.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EN/ENOUGH-1314.mp4"
+  },
+  {
+    "word": "excuse",
+    "gloss": "EXCUSE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/833.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EX/EXCUSE-833.mp4"
+  },
+  {
+    "word": "false",
+    "gloss": "FAKE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/732.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FA/FAKE-732.mp4"
+  },
+  {
+    "word": "far",
+    "gloss": "FAR",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/699.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FA/FAR-699.mp4"
+  },
+  {
+    "word": "follow",
+    "gloss": "FOLLOWix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/692.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FO/FOLLOW-692.mp4"
+  },
+  {
+    "word": "hot",
+    "gloss": "HOT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/485.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HO/HOT-485.mp4"
+  },
+  {
+    "word": "improve",
+    "gloss": "IMPROVE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1743.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/IM/IMPROVE-1743.mp4"
+  },
+  {
+    "word": "keep",
+    "gloss": "KEEP",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1700.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/KE/KEEP-1700.mp4"
+  },
+  {
+    "word": "look for",
+    "gloss": "SEARCH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/537.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/LO/LOOK-FOR-537.mp4"
+  },
+  {
+    "word": "month",
+    "gloss": "MONTH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1595.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MONTH-1595.mp4"
+  },
+  {
+    "word": "most",
+    "gloss": "MOST",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1591.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MO/MOST-1591.mp4"
+  },
+  {
+    "word": "must",
+    "gloss": "MUST",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/192.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/MU/MUST-192.mp4"
+  },
+  {
+    "word": "near",
+    "gloss": "NEAR",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/193.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NE/NEAR-193.mp4"
+  },
+  {
+    "word": "never",
+    "gloss": "NEVER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1575.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NE/NEVER-1575.mp4"
+  },
+  {
+    "word": "next",
+    "gloss": "NEXT",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/197.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NE/NEXT-197.mp4"
+  },
+  {
+    "word": "nothing",
+    "gloss": "NOTHING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1556.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/NO/NOTHING-1556.mp4"
+  },
+  {
+    "word": "only",
+    "gloss": "ONLY-SELF_1",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2813.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ON/ONLY-SELF_1-2813.mp4"
+  },
+  {
+    "word": "practice",
+    "gloss": "PRACTICE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/839.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PR/PRACTICE-839.mp4"
+  },
+  {
+    "word": "prefer",
+    "gloss": "PREFER",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/3045.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/PR/PREFER-3045.mp4"
+  },
+  {
+    "word": "rest",
+    "gloss": "REST",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/352.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/REST-352.mp4"
+  },
+  {
+    "word": "send",
+    "gloss": "SEND",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/613.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SE/SEND-613.mp4"
+  },
+  {
+    "word": "something",
+    "gloss": "SOMETHING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2488.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SO/SOMETHING-2488.mp4"
+  },
+  {
+    "word": "sometimes",
+    "gloss": "SOMETIME",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1094.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SO/SOMETIME-1094.mp4"
+  },
+  {
+    "word": "stop",
+    "gloss": "STOP",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/544.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ST/STOP-544.mp4"
+  },
+  {
+    "word": "store",
+    "gloss": "SHOP",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1039.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SH/SHOP_2-1039.mp4"
+  },
+  {
+    "word": "support",
+    "gloss": "SUPPORTrep",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1147.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SU/SUPPORT-1147.mp4"
+  },
+  {
+    "word": "than",
+    "gloss": "THAN",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1197.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/TH/THAN-1197.mp4"
+  },
+  {
+    "word": "bathroom",
+    "gloss": "BATHROOM",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/32.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BA/BATHROOM-32.mp4"
+  },
+  {
+    "word": "true",
+    "gloss": "REAL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/530.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/RE/REAL-530.mp4"
+  },
+  {
+    "word": "until",
+    "gloss": "UNTIL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1361.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/UN/UNTIL-1361.mp4"
+  },
+  {
+    "word": "visit",
+    "gloss": "VISITalt",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/836.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/VI/VISIT-836.mp4"
+  },
+  {
+    "word": "watch",
+    "gloss": "WATCH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/317.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WA/WATCH-317.mp4"
+  },
+  {
+    "word": "wrong",
+    "gloss": "WRONG",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/326.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/WR/WRONG-326.mp4"
+  },
+  {
+    "word": "don't know",
+    "gloss": "DON'T-KNOWrot",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/113.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DO/DON'T-KNOW-113.mp4"
+  },
+  {
+    "word": "nauseous",
+    "gloss": "DISGUSTED",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1261.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DI/DISGUSTED-1261.mp4"
+  },
+  {
+    "word": "agree",
+    "gloss": "AGREEMENTix",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2056.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AG/AGREEMENT-2056.mp4"
+  },
+  {
+    "word": "almost",
+    "gloss": "ALMOST",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/646.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AL/ALMOST-646.mp4"
+  },
+  {
+    "word": "allow",
+    "gloss": "ALLOWp",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/12.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AL/ALLOW-12.mp4"
+  },
+  {
+    "word": "always",
+    "gloss": "ALWAYS",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/265.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AL/ALWAYS-265.mp4"
+  },
+  {
+    "word": "animal",
+    "gloss": "ANIMAL",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/16.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AN/ANIMAL-16.mp4"
+  },
+  {
+    "word": "best",
+    "gloss": "SUPERLATIVE",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/3665.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/SU/SUPERLATIVE-3665.mp4"
+  },
+  {
+    "word": "anything",
+    "gloss": "EVERYTHING",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1334.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/EV/EVERYTHING-1334.mp4"
+  },
+  {
+    "word": "avoid",
+    "gloss": "AVOIDa",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2083.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/AV/AVOID-2083.mp4"
+  },
+  {
+    "word": "both",
+    "gloss": "BOTH",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/2128.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/BO/BOTH-2128.mp4"
+  },
+  {
+    "word": "use",
+    "gloss": "USEb",
+    "entry": "https://aslsignbank.haskins.yale.edu/dictionary/gloss/313.html",
+    "video": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/US/USE-313.mp4"
+  }
+]

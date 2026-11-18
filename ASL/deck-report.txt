@@ -1,0 +1,313 @@
+Status key: ok = confident match · CHECK = open the link and make sure it's the sign you meant · MERGED = same sign as another word, shares its card · MISSING = not found
+Sorted so the ones needing attention come first.
+
+MISSING   Really want                                       
+MISSING   Very beautiful                                    
+CHECK     Dad                     FATHERwig               https://aslsignbank.haskins.yale.edu/dictionary/gloss/452.html  English translation, first of 2 (check)
+CHECK     Mom                     MOTHERwig               https://aslsignbank.haskins.yale.edu/dictionary/gloss/509.html  English translation, first of 2 (check)
+CHECK     Marriage                MARRYstr                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1625.html  English translation, first of 2 (check)
+CHECK     Massage                 RUB                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/2288.html  exact gloss for "rub" (check)
+CHECK     nice to meet you        NICE + MEET + IX        https://aslsignbank.haskins.yale.edu/dictionary/gloss/198.html https://aslsignbank.haskins.yale.edu/dictionary/gloss/1620.html https://aslsignbank.haskins.yale.edu/dictionary/gloss/1712.html  multi-sign card: nice→exact gloss, meet→exact gloss, you→English translation, preferred label (check)
+CHECK     Signing                 SIGN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/256.html  English translation labeled "sign" (check)
+CHECK     Hear                    HEARING                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1773.html  exact gloss for "hearing" (check)
+CHECK     Clothing                CLOTHES                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/91.html  English translation labeled "clothes" (check)
+CHECK     Debate                  ARGUE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/740.html  English translation, first of 3 (check)
+CHECK     Wake up                 AWAKE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/2354.html  English translation, first of 2 (check)
+CHECK     Poetry                  EXPRESS                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1363.html  English translation, first of 2 (check)
+CHECK     Joke                    KID                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/163.html  exact gloss for "kid" (check)
+CHECK     Silence                 QUIET                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/233.html  English translation labeled "quiet" (check)
+CHECK     Enlighten               INSPIRE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1732.html  exact gloss for "inspire" (check)
+CHECK     Phone                   TELEPHONE               https://aslsignbank.haskins.yale.edu/dictionary/gloss/546.html  English translation labeled "telephone" (check)
+CHECK     Snack                   SNACK-FOOD              https://aslsignbank.haskins.yale.edu/dictionary/gloss/2534.html  word is part of gloss (check)
+CHECK     Advice                  COUNSEL                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1170.html  English translation, first of 3 (check)
+CHECK     Devour                  EAT                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/399.html  exact gloss for "eat" (check)
+CHECK     Magnificent             WONDERFUL               https://aslsignbank.haskins.yale.edu/dictionary/gloss/1447.html  exact gloss for "wonderful" (check)
+CHECK     Night                   ALL-NIGHT               https://aslsignbank.haskins.yale.edu/dictionary/gloss/9.html  word is part of gloss (check) (via English)
+CHECK     Kind                    NICE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/198.html  English translation labeled "nice" (check); same sign as "nice", shown as "nice / kind"
+CHECK     Hang out                SOCIALth                https://aslsignbank.haskins.yale.edu/dictionary/gloss/851.html  English translation, first of 3 (check)
+CHECK     False                   FAKE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/732.html  English translation, first of 2 (check)
+CHECK     Hurt                    PAIN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/489.html  English translation labeled "pain" (check); same sign as "pain", shown as "pain / hurt"
+CHECK     A lot                   MUCH                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/13.html  English translation labeled "much" (check); same sign as "much", shown as "much / a lot"
+CHECK     Only                    ONLY-SELF_1             https://aslsignbank.haskins.yale.edu/dictionary/gloss/2813.html  word is part of gloss (check)
+CHECK     Store                   SHOP                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1039.html  English translation labeled "shop" (check)
+CHECK     True                    REAL                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/530.html  English translation labeled "real" (check)
+CHECK     Agree                   AGREEMENTix             https://aslsignbank.haskins.yale.edu/dictionary/gloss/2056.html  English translation, first of 2 (check)
+CHECK     Best                    SUPERLATIVE             https://aslsignbank.haskins.yale.edu/dictionary/gloss/3665.html  exact gloss for "superlative" (check)
+MERGED    Argue                   ARGUE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/740.html  exact gloss; same sign as "debate", shown as "debate / argue"
+ok        Brother                 BROTHERix               https://aslsignbank.haskins.yale.edu/dictionary/gloss/52.html  exact gloss
+ok        Grandpa                 GRANDFATHER             https://aslsignbank.haskins.yale.edu/dictionary/gloss/1863.html  English translation match
+ok        Grandmother             GRANDMOTHER             https://aslsignbank.haskins.yale.edu/dictionary/gloss/1862.html  exact gloss
+ok        Single                  SINGLEix                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1068.html  exact gloss
+ok        Want                    WANT                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1409.html  exact gloss
+ok        Don't want              DON'T-WANT              https://aslsignbank.haskins.yale.edu/dictionary/gloss/442.html  exact gloss
+ok        Have                    HAVE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1779.html  exact gloss
+ok        Don't like              DON'T-LIKE              https://aslsignbank.haskins.yale.edu/dictionary/gloss/114.html  exact gloss
+ok        Problem                 PROBLEMtwist            https://aslsignbank.haskins.yale.edu/dictionary/gloss/2483.html  exact gloss
+ok        Need                    NEED                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/194.html  exact gloss
+ok        Don't need              DON'T-NEED              https://aslsignbank.haskins.yale.edu/dictionary/gloss/1272.html  exact gloss
+ok        Leave                   LEAVEo                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/471.html  exact gloss
+ok        Drive                   DRIVEpro                https://aslsignbank.haskins.yale.edu/dictionary/gloss/445.html  exact gloss
+ok        See                     SEE                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/538.html  exact gloss
+ok        Walk                    WALKb                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/314.html  exact gloss
+ok        Run                     RUNasym                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/243.html  exact gloss
+ok        Drunk                   DRUNK                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/2750.html  exact gloss
+ok        Make                    MAKEext                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/502.html  exact gloss
+ok        Sleep                   SLEEPo                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/709.html  exact gloss
+ok        Sleepy                  SLEEPY                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/3450.html  exact gloss
+ok        Go                      GOix                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/469.html  exact gloss
+ok        Stay                    STAY                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/543.html  exact gloss
+ok        Class                   CLASS                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/585.html  exact gloss
+ok        Can                     CAN                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/426.html  exact gloss
+ok        Can't                   CANNOT                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/427.html  exact gloss
+ok        Where                   WHERE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1427.html  exact gloss
+ok        Which                   WHICH                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1428.html  exact gloss
+ok        Text                    TEXT                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1196.html  exact gloss
+ok        Number                  NUMBER                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/782.html  exact gloss
+ok        Fun                     FUN                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/141.html  exact gloss
+ok        Cute                    CUTEnoth                https://aslsignbank.haskins.yale.edu/dictionary/gloss/438.html  exact gloss
+ok        Smart                   SMART                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/710.html  exact gloss
+ok        Nice                    NICE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/198.html  exact gloss
+ok        Coffee                  COFFEE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2035.html  exact gloss
+ok        Chocolate               CHOCOLATE               https://aslsignbank.haskins.yale.edu/dictionary/gloss/77.html  exact gloss
+ok        Maybe                   MAYBE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/505.html  exact gloss
+ok        Library                 LIBRARY                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/567.html  exact gloss
+ok        Good luck               LUCKY                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1632.html  English translation match
+ok        Help                    HELPstr                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/483.html  exact gloss
+ok        Please                  PLEASE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/527.html  exact gloss
+ok        Thank you               THANK-YOU               https://aslsignbank.haskins.yale.edu/dictionary/gloss/1198.html  exact gloss
+ok        Good                    GOOD                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/472.html  exact gloss
+ok        Again                   AGAIN                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/400.html  exact gloss
+ok        Water                   WATER                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1414.html  exact gloss
+ok        Cheese                  CHEESE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/430.html  exact gloss
+ok        Egg                     EGG                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/447.html  exact gloss
+ok        Means                   MEANING                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/186.html  exact gloss
+ok        Fingerspell             FINGERSPELL             https://aslsignbank.haskins.yale.edu/dictionary/gloss/621.html  exact gloss
+ok        Dream                   DREAMix                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/578.html  exact gloss
+ok        Star                    STAR                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/274.html  exact gloss
+ok        Planet                  PLANET                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/784.html  exact gloss
+ok        Smell                   SMELL                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1076.html  exact gloss
+ok        Taste                   TASTE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/290.html  exact gloss
+ok        Idea                    IDEA                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1750.html  exact gloss
+ok        Wait                    WAIT                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1405.html  exact gloss
+ok        Car                     CAR                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/428.html  exact gloss
+ok        Talk                    TALK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/289.html  exact gloss
+ok        We                      WEix                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1416.html  exact gloss
+ok        Happy                   HAPPY                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/476.html  exact gloss
+ok        Fine                    FINErep                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/455.html  exact gloss
+ok        Bad                     BAD                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/29.html  exact gloss
+ok        Bored                   BORED                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/2124.html  exact gloss
+ok        Busy                    BUSY                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1981.html  exact gloss
+ok        Confused                CONFUSEDnoix            https://aslsignbank.haskins.yale.edu/dictionary/gloss/1124.html  exact gloss
+ok        Excited                 EXCITED                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1344.html  exact gloss
+ok        Hungry                  DESIRE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/488.html  English translation match
+ok        Thirsty                 THIRSTY                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/293.html  exact gloss
+ok        Mad                     MADstr                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/182.html  exact gloss
+ok        Sad                     SAD                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/245.html  exact gloss
+ok        Live                    LIVEl                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1641.html  exact gloss
+ok        Curious                 CURIOUSf                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1194.html  exact gloss
+ok        Ask                     ASKix                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/22.html  exact gloss
+ok        Buy                     BUYb                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/424.html  exact gloss
+ok        Hug                     HUG                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/154.html  exact gloss
+ok        Bicycle                 BICYCLE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/379.html  exact gloss
+ok        Earrings                EARRINGbo               https://aslsignbank.haskins.yale.edu/dictionary/gloss/1289.html  exact gloss
+ok        Anxious                 ANXIOUS                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/4649.html  exact gloss
+ok        Read                    READ                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/341.html  exact gloss
+ok        When                    WHEN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1426.html  exact gloss
+ok        Ready                   READY                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/33.html  exact gloss
+ok        Call                    CALL                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/65.html  exact gloss
+ok        Work                    WORK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1450.html  exact gloss
+ok        Focus                   FOCUS                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1487.html  exact gloss
+ok        Write                   WRITEbo                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1467.html  exact gloss
+ok        Exercise                EXERCISEpro             https://aslsignbank.haskins.yale.edu/dictionary/gloss/351.html  exact gloss
+ok        Gym                     PHYS-ED                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/2392.html  English translation match
+ok        Play                    PLAY                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/526.html  exact gloss
+ok        Time                    TIME                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1233.html  exact gloss
+ok        Sorry                   SORRY                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/566.html  exact gloss
+ok        Sports                  SPORTS                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/587.html  exact gloss
+ok        Show                    SHOW                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/254.html  exact gloss
+ok        Come                    COMEstr                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/434.html  exact gloss
+ok        Hair                    HAIR                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1848.html  exact gloss
+ok        Create                  CREATE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/1188.html  exact gloss
+ok        Dance                   DANCE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1207.html  exact gloss
+ok        Move                    MOVE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/528.html  exact gloss
+ok        But                     BUT                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/61.html  exact gloss
+ok        Hope                    HOPEnoix                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1760.html  exact gloss
+ok        Research                RESEARCHix              https://aslsignbank.haskins.yale.edu/dictionary/gloss/963.html  exact gloss
+ok        Look                    LOOK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/500.html  exact gloss
+ok        Stand                   STAND                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/273.html  exact gloss
+ok        Pill                    PILL                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/3028.html  exact gloss
+ok        Period                  PERIOD                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/887.html  exact gloss
+ok        Question                QUESTION                https://aslsignbank.haskins.yale.edu/dictionary/gloss/3775.html  exact gloss
+ok        Minute                  MINUTEix                https://aslsignbank.haskins.yale.edu/dictionary/gloss/655.html  exact gloss
+ok        Hour                    HOURneut                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1757.html  exact gloss
+ok        Tomorrow                TOMORROW                https://aslsignbank.haskins.yale.edu/dictionary/gloss/301.html  exact gloss
+ok        Today                   TODAY                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/299.html  exact gloss
+ok        How                     HOW                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/487.html  exact gloss
+ok        Much                    MUCH                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/13.html  exact gloss
+ok        Day                     DAYdown                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/102.html  exact gloss
+ok        Week                    WEEK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1418.html  exact gloss
+ok        Mistake                 MISTAKE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/188.html  exact gloss
+ok        Pay                     PAYix                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/878.html  exact gloss
+ok        Luck                    LUCK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1633.html  exact gloss
+ok        Machine                 MACHINE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/771.html  exact gloss
+ok        Engineering             ENGINEERING             https://aslsignbank.haskins.yale.edu/dictionary/gloss/1988.html  exact gloss
+ok        Psychology              PSYCHOLOGY              https://aslsignbank.haskins.yale.edu/dictionary/gloss/2946.html  exact gloss
+ok        Game                    GAME                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/463.html  exact gloss
+ok        Video game              VIDEO-GAME              https://aslsignbank.haskins.yale.edu/dictionary/gloss/1969.html  exact gloss
+ok        Clean                   CLEAN                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/431.html  exact gloss
+ok        Miss                    MISS                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1603.html  exact gloss
+ok        Climb                   CLIMB                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/4187.html  exact gloss
+ok        Think                   THINK                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/398.html  exact gloss
+ok        Feel                    FEEL                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/624.html  exact gloss
+ok        Peanut butter           PEANUT-BUTTER           https://aslsignbank.haskins.yale.edu/dictionary/gloss/880.html  exact gloss
+ok        Slow                    SLOW                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/261.html  exact gloss
+ok        Fast                    FASTonex                https://aslsignbank.haskins.yale.edu/dictionary/gloss/130.html  exact gloss
+ok        Light                   LIGHT                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/497.html  exact gloss
+ok        Cook                    COOK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/2584.html  exact gloss
+ok        Sit                     SIT                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/541.html  exact gloss
+ok        Jump                    JUMPup                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/159.html  exact gloss
+ok        Fire                    FIREstr                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/457.html  exact gloss
+ok        School                  SCHOOL                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/247.html  exact gloss
+ok        Picture                 PICTURE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/215.html  exact gloss
+ok        Know                    KNOWbb                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/554.html  exact gloss
+ok        Dinner                  DINNER                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/108.html  exact gloss
+ok        Vegetable               VEGETABLE               https://aslsignbank.haskins.yale.edu/dictionary/gloss/793.html  exact gloss
+ok        Give                    GIVEo                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/466.html  exact gloss
+ok        Energy                  ENERGY                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/798.html  exact gloss
+ok        Spicy                   SPICYpro                https://aslsignbank.haskins.yale.edu/dictionary/gloss/654.html  exact gloss
+ok        Lie down                LAY-DOWN                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1686.html  English translation match
+ok        Exam                    EXAM                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/706.html  exact gloss
+ok        Bedroom                 BEDROOM                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/2403.html  exact gloss
+ok        Context                 CONTEXT                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/4186.html  exact gloss
+ok        New                     NEW                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/195.html  exact gloss
+ok        Say                     SAYstr                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/536.html  exact gloss
+ok        Study                   STUDYwig                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1139.html  exact gloss
+ok        Scratch                 SCRATCH                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/249.html  exact gloss
+ok        Book                    BOOK                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/418.html  exact gloss
+ok        Because                 BECAUSEb                https://aslsignbank.haskins.yale.edu/dictionary/gloss/34.html  exact gloss
+ok        Why                     WHY                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/1431.html  exact gloss
+ok        Sing                    SING                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/3111.html  exact gloss
+ok        Music                   MUSIC                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1584.html  exact gloss
+ok        Listen                  LISTENthree             https://aslsignbank.haskins.yale.edu/dictionary/gloss/478.html  exact gloss
+ok        For                     FOR                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/135.html  exact gloss
+ok        Weather                 WEATHER                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/2268.html  exact gloss
+ok        Remind                  REMINDasym              https://aslsignbank.haskins.yale.edu/dictionary/gloss/959.html  exact gloss
+ok        Forget                  FORGET                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/565.html  exact gloss
+ok        Teacher                 TEACHER                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/792.html  exact gloss
+ok        Student                 STUDENTneut             https://aslsignbank.haskins.yale.edu/dictionary/gloss/828.html  exact gloss
+ok        Decide                  DECIDEix                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1226.html  exact gloss
+ok        Morning                 MORNING                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/190.html  exact gloss
+ok        First                   FIRSTtwist              https://aslsignbank.haskins.yale.edu/dictionary/gloss/458.html  exact gloss
+ok        Last                    LAST                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/168.html  exact gloss
+ok        Start                   START                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/619.html  exact gloss
+ok        Yesterday               YESTERDAYth             https://aslsignbank.haskins.yale.edu/dictionary/gloss/327.html  exact gloss
+ok        Pain                    PAIN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/489.html  exact gloss
+ok        Lunch                   LUNCH                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/181.html  exact gloss
+ok        Breakfast               BREAKFAST               https://aslsignbank.haskins.yale.edu/dictionary/gloss/50.html  exact gloss
+ok        Afternoon               AFTERNOON               https://aslsignbank.haskins.yale.edu/dictionary/gloss/6.html  exact gloss
+ok        Believe                 BELIEVEnoix             https://aslsignbank.haskins.yale.edu/dictionary/gloss/576.html  exact gloss
+ok        Funny                   FUNNYu                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/142.html  exact gloss
+ok        Laugh                   LAUGH                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/380.html  exact gloss
+ok        Teach                   TEACHneut               https://aslsignbank.haskins.yale.edu/dictionary/gloss/291.html  exact gloss
+ok        Homework                HOMEWORK                https://aslsignbank.haskins.yale.edu/dictionary/gloss/2937.html  exact gloss
+ok        Home                    HOME                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/152.html  exact gloss
+ok        Friend                  FRIEND                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/462.html  exact gloss
+ok        Sweet                   SWEET                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/281.html  exact gloss
+ok        Bring                   BRING                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/51.html  exact gloss
+ok        Cookie                  COOKIE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/435.html  exact gloss
+ok        Outside                 OUTSIDE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/209.html  exact gloss
+ok        Restless                RESTLESS                https://aslsignbank.haskins.yale.edu/dictionary/gloss/2188.html  exact gloss
+ok        From                    FROM                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1502.html  exact gloss
+ok        Like                    LIKE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/498.html  exact gloss
+ok        Inside                  INSIDE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/490.html  exact gloss
+ok        Movie                   MOVIE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/590.html  exact gloss
+ok        Plan                    PLAN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/905.html  exact gloss
+ok        Party                   PARTYp                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/874.html  exact gloss
+ok        Alone                   ALONE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/2065.html  exact gloss
+ok        Lonely                  LONELY                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2058.html  exact gloss
+ok        Pride                   PRIDE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/2172.html  exact gloss
+ok        More                    MORE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/508.html  exact gloss
+ok        Less                    DECREASEb               https://aslsignbank.haskins.yale.edu/dictionary/gloss/1235.html  English translation match
+ok        Not                     NOT                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/515.html  exact gloss
+ok        Now                     NOW                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/517.html  exact gloss
+ok        Later                   LATERasym               https://aslsignbank.haskins.yale.edu/dictionary/gloss/169.html  exact gloss
+ok        Accept                  ACCEPT                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2045.html  exact gloss
+ok        Shower                  SHOWER                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/340.html  exact gloss
+ok        Brush teeth             TOOTHBRUSH              https://aslsignbank.haskins.yale.edu/dictionary/gloss/303.html  English translation match
+ok        Wear                    WEARa                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/2199.html  exact gloss
+ok        Different               DIFFERENTstr            https://aslsignbank.haskins.yale.edu/dictionary/gloss/106.html  exact gloss
+ok        Drink                   DRINKc                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/119.html  exact gloss
+ok        Family                  FAMILYf                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1379.html  exact gloss
+ok        Few                     FEW                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/657.html  exact gloss
+ok        Find                    FIND                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/2916.html  exact gloss
+ok        Finish                  FINISH                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/456.html  exact gloss
+ok        Get                     GET                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/464.html  exact gloss
+ok        Become                  BECOME                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2100.html  exact gloss
+ok        Little                  LITTLE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2183.html  exact gloss
+ok        Many                    MANY                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/504.html  exact gloss
+ok        Name                    NAME                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/511.html  exact gloss
+ok        Old                     OLD                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/202.html  exact gloss
+ok        Other                   OTHER                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/522.html  exact gloss
+ok        Remember                REMEMBERsym             https://aslsignbank.haskins.yale.edu/dictionary/gloss/532.html  exact gloss
+ok        Same                    SAME                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/534.html  exact gloss
+ok        Some                    SOME                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/264.html  exact gloss
+ok        Try                     TRYt                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1322.html  exact gloss
+ok        Who                     WHObent                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1430.html  exact gloss
+ok        With                    WITH                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/323.html  exact gloss
+ok        Woman                   WOMANs5                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1446.html  exact gloss
+ok        Boy                     BOY                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/377.html  exact gloss
+ok        About                   ABOUTb                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2042.html  exact gloss
+ok        After                   AFTER                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1971.html  exact gloss
+ok        Before                  BEFORE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/37.html  exact gloss
+ok        All                     ALL                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/11.html  exact gloss
+ok        Answer                  ANSWER                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2228.html  exact gloss
+ok        Better                  BETTER                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/409.html  exact gloss
+ok        Big                     BIGb                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/410.html  exact gloss
+ok        Change                  CHANGEx                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1053.html  exact gloss
+ok        Close                   CLOSE                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/87.html  exact gloss
+ok        Open                    OPEN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/520.html  exact gloss
+ok        Cold                    COLD                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/432.html  exact gloss
+ok        Early                   EARLYix                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1288.html  exact gloss
+ok        Late                    LATE                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1689.html  exact gloss
+ok        Easy                    EASY                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/684.html  exact gloss
+ok        Hard                    HARD                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/146.html  exact gloss
+ok        Email                   EMAILix                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/2755.html  exact gloss
+ok        Enough                  ENOUGH                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/1314.html  exact gloss
+ok        Excuse                  EXCUSE                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/833.html  exact gloss
+ok        Far                     FAR                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/699.html  exact gloss
+ok        Follow                  FOLLOWix                https://aslsignbank.haskins.yale.edu/dictionary/gloss/692.html  exact gloss
+ok        Hot                     HOT                     https://aslsignbank.haskins.yale.edu/dictionary/gloss/485.html  exact gloss
+ok        Improve                 IMPROVE                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1743.html  exact gloss
+ok        Keep                    KEEP                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1700.html  exact gloss
+ok        Look for                SEARCH                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/537.html  English translation match
+ok        Month                   MONTH                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1595.html  exact gloss
+ok        Most                    MOST                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1591.html  exact gloss
+ok        Must                    MUST                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/192.html  exact gloss
+ok        Near                    NEAR                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/193.html  exact gloss
+ok        Never                   NEVER                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1575.html  exact gloss
+ok        Next                    NEXT                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/197.html  exact gloss
+ok        Nothing                 NOTHING                 https://aslsignbank.haskins.yale.edu/dictionary/gloss/1556.html  exact gloss
+ok        Practice                PRACTICE                https://aslsignbank.haskins.yale.edu/dictionary/gloss/839.html  exact gloss
+ok        Prefer                  PREFER                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/3045.html  exact gloss
+ok        Rest                    REST                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/352.html  exact gloss
+ok        Send                    SEND                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/613.html  exact gloss
+ok        Something               SOMETHING               https://aslsignbank.haskins.yale.edu/dictionary/gloss/2488.html  exact gloss
+ok        Sometimes               SOMETIME                https://aslsignbank.haskins.yale.edu/dictionary/gloss/1094.html  exact gloss
+ok        Stop                    STOP                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/544.html  exact gloss
+ok        Support                 SUPPORTrep              https://aslsignbank.haskins.yale.edu/dictionary/gloss/1147.html  exact gloss
+ok        Than                    THAN                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/1197.html  exact gloss
+ok        Bathroom                BATHROOM                https://aslsignbank.haskins.yale.edu/dictionary/gloss/32.html  exact gloss
+ok        Until                   UNTIL                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/1361.html  exact gloss
+ok        Visit                   VISITalt                https://aslsignbank.haskins.yale.edu/dictionary/gloss/836.html  exact gloss
+ok        Watch                   WATCH                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/317.html  exact gloss
+ok        Wrong                   WRONG                   https://aslsignbank.haskins.yale.edu/dictionary/gloss/326.html  exact gloss
+ok        Don't know              DON'T-KNOWrot           https://aslsignbank.haskins.yale.edu/dictionary/gloss/113.html  exact gloss
+ok        Nauseous                DISGUSTED               https://aslsignbank.haskins.yale.edu/dictionary/gloss/1261.html  English translation match
+ok        Almost                  ALMOST                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/646.html  exact gloss
+ok        Allow                   ALLOWp                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/12.html  exact gloss
+ok        Always                  ALWAYS                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/265.html  exact gloss
+ok        Animal                  ANIMAL                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/16.html  exact gloss
+ok        Anything                EVERYTHING              https://aslsignbank.haskins.yale.edu/dictionary/gloss/1334.html  English translation match
+ok        Avoid                   AVOIDa                  https://aslsignbank.haskins.yale.edu/dictionary/gloss/2083.html  exact gloss
+ok        Both                    BOTH                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/2128.html  exact gloss
+ok        Use                     USEb                    https://aslsignbank.haskins.yale.edu/dictionary/gloss/313.html  exact gloss

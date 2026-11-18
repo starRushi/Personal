@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ethan's Language Games</title>
+<style>
+  :root { --bg:#f4f1ea; --ink:#1d1d1b; --muted:#6b6a64; --card:#fffdf8; --line:#dcd7cb; --accent:#1f6f6b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161614; --ink:#eceae4; --muted:#9a988f; --card:#22221f; --line:#393834; --accent:#5fb3ad; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 40px; }
+  h1 { font-size:32px; margin:0 0 6px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:14px; }
+  .tile { display:flex; flex-direction:column; gap:6px; padding:18px; text-decoration:none; color:inherit;
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    transition:transform .15s, border-color .15s; }
+  a.tile:hover, a.tile:focus-visible, .has-versions:hover, .has-versions:focus-within {
+    transform:translateY(-2px); border-color:var(--accent); outline:none; }
+  .main-link { display:flex; flex-direction:column; gap:6px; text-decoration:none; color:inherit; outline:none; }
+  .row-bottom { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:4px; }
+  .row-bottom .tag { margin-top:0; }
+  .older { font-size:13px; color:var(--muted); }
+  .older:hover { color:var(--accent); }
+  .emoji { font-size:28px; }
+  .name { font-weight:650; font-size:17px; }
+  .desc { color:var(--muted); font-size:14px; }
+  .tag { align-self:flex-start; margin-top:4px; font-size:12px; color:var(--accent);
+    border:1px solid var(--line); border-radius:99px; padding:1px 9px; }
+  footer { margin-top:48px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Language Games</h1>
+  <p class="sub">Little tools I've built for learning languages.</p>
+
+  <div class="grid">
+    <!-- To add a project: copy one <a class="tile"> block, change the link, emoji, name and description. -->
+
+    <div class="tile has-versions">
+      <a class="main-link" href="kannada/">
+        <span class="emoji">🛺</span>
+        <span class="name">Kannada Rush: Bangalore</span>
+        <span class="desc">A game for learning everyday Kannada.</span>
+      </a>
+      <span class="row-bottom">
+        <span class="tag">Kannada</span>
+        <a class="older" href="kannada/v1.html">Original version</a>
+      </span>
+    </div>
+
+    <a class="tile" href="asl/">
+      <span class="emoji">🤟</span>
+      <span class="name">ASL Flashcards</span>
+      <span class="desc">Word on one side, sign video on the other.</span>
+      <span class="tag">ASL</span>
+    </a>
+
+  </div>
+
+  <footer>Hosted on GitHub Pages.</footer>
+</main>
+</body>
+</html>

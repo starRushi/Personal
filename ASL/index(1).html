@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ASL Flashcards</title>
+<style>
+  :root {
+    --bg: #f4f1ea; --ink: #1d1d1b; --muted: #6b6a64; --card: #fffdf8; --line: #dcd7cb;
+    --teal: #1f6f6b; --teal-soft: #d8ebe8; --red: #b4472f; --red-soft: #f3ddd6; --gold: #c8920f;
+    --radius: 18px; --shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614; --ink: #eceae4; --muted: #9a988f; --card: #22221f; --line: #393834;
+      --teal: #5fb3ad; --teal-soft: #1f3533; --red: #e07a62; --red-soft: #3d2620; --gold: #f0b93a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.45 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  a { color: var(--teal); }
+  [hidden] { display: none !important; }
+
+  .app { max-width: 640px; margin: 0 auto; padding: 20px 16px 40px; min-height: 100dvh;
+    display: flex; flex-direction: column; gap: 14px; }
+
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  header h1 { font-size: 20px; margin: 0; letter-spacing: -.01em; }
+  header h1 a { color: inherit; text-decoration: none; }
+  .hdr-btns { display: flex; gap: 8px; }
+
+  .chip { border: 1px solid var(--line); background: var(--card); border-radius: 999px;
+    padding: 6px 12px; font-size: 14px; }
+  .chip[aria-pressed="true"] { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .toolbar .spacer { flex: 1; }
+  .progress { font-size: 14px; color: var(--muted); }
+  .bar { height: 6px; background: var(--line); border-radius: 99px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: var(--teal); transition: width .3s; }
+
+  .browse-banner { display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    font-size: 14px; color: var(--muted); }
+  .linkbtn { border: 0; background: none; color: var(--teal); padding: 0; text-decoration: underline; font-size: 14px; }
+
+  /* Card */
+  .stage { perspective: 1400px; flex: 1; min-height: 400px; display: flex; }
+  .card { position: relative; flex: 1; transform-style: preserve-3d;
+    transition: transform .5s cubic-bezier(.2,.7,.2,1); cursor: pointer; outline: none; }
+  .card.flipped { transform: rotateY(180deg); }
+  .face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 24px; text-align: center; overflow: hidden; }
+  .back { transform: rotateY(180deg); }
+  .layout-video { justify-content: flex-start; padding: 16px; gap: 12px; }
+  .label { position: absolute; top: 14px; left: 18px; font-size: 12px; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted); }
+  .word { font-size: clamp(34px, 9vw, 56px); font-weight: 650; letter-spacing: -.02em; word-break: break-word; }
+  .gloss { margin-top: 6px; color: var(--muted); font-size: 14px; font-family: ui-monospace, Menlo, monospace; }
+  .hint { position: absolute; bottom: 14px; font-size: 13px; color: var(--muted); }
+  .video-wrap { width: 100%; flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center;
+    background: #000; border-radius: 12px; overflow: hidden; }
+  .video-wrap video { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .no-video { color: #ddd; padding: 24px; font-size: 15px; }
+  .no-video a { color: #8fd6cf; }
+  .back-meta { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+  .back-word { font-weight: 650; font-size: 20px; }
+  .speeds { display: flex; gap: 4px; }
+  .speeds button { border: 1px solid var(--line); background: transparent; border-radius: 8px; padding: 3px 8px; font-size: 13px; }
+  .speeds button[aria-pressed="true"] { background: var(--teal-soft); border-color: var(--teal); }
+  .entry-link { font-size: 13px; }
+  .seq-steps { font-size: 13px; color: var(--muted); font-family: ui-monospace, Menlo, monospace; }
+  .seq-steps .on { color: var(--teal); font-weight: 700; }
+
+  /* Nav row: prev / star / next */
+  .nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; }
+  .nav .arrow { border: 1px solid var(--line); background: var(--card); border-radius: 12px; padding: 10px 14px;
+    font-size: 15px; font-weight: 600; }
+  .nav .arrow:disabled { opacity: .35; cursor: default; }
+  .nav .prev { justify-self: start; }
+  .nav .next { justify-self: end; }
+  .star { border: 0; background: none; font-size: 26px; line-height: 1; padding: 4px 8px; color: var(--muted); }
+  .star[aria-pressed="true"] { color: var(--gold); }
+
+  .answer { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .answer button { border: 0; border-radius: 14px; padding: 14px; font-weight: 600; font-size: 16px; }
+  .again { background: var(--red-soft); color: var(--red); }
+  .good  { background: var(--teal-soft); color: var(--teal); }
+  .flipbtn { width: 100%; border: 1px solid var(--line); background: var(--card); border-radius: 14px; padding: 14px; font-weight: 600; }
+
+  .done { text-align: center; padding: 40px 16px; }
+  .done h2 { margin: 0 0 6px; }
+  .done p { color: var(--muted); margin: 0 0 18px; }
+  .primary { background: var(--teal); color: #fff; border: 0; border-radius: 12px; padding: 12px 18px; font-weight: 600; }
+
+  /* Word list */
+  .list-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .list-tools input[type=search] { flex: 1 1 180px; }
+  ul.words { list-style: none; margin: 0; padding: 0; background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; overflow: hidden; }
+  ul.words li { display: flex; align-items: center; border-top: 1px solid var(--line); }
+  ul.words li:first-child { border-top: 0; }
+  ul.words .open { flex: 1; min-width: 0; display: flex; align-items: baseline; gap: 10px; text-align: left;
+    border: 0; background: none; padding: 12px 14px 12px 4px; }
+  ul.words .open:hover { background: var(--bg); }
+  ul.words .w { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  ul.words .g { font-size: 12px; color: var(--muted); font-family: ui-monospace, Menlo, monospace;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+  ul.words .star { font-size: 20px; padding: 10px 8px 10px 12px; }
+  .level { display: inline-flex; gap: 3px; flex-shrink: 0; }
+  .level i { width: 7px; height: 7px; border-radius: 50%; background: var(--line); }
+  .level i.on { background: var(--teal); }
+  .empty { padding: 18px; color: var(--muted); text-align: center; }
+  .count { font-size: 13px; color: var(--muted); }
+
+  footer { font-size: 12px; color: var(--muted); text-align: center; }
+  kbd { font-family: ui-monospace, Menlo, monospace; font-size: 11px; border: 1px solid var(--line);
+    border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; }
+
+  /* Deck manager */
+  dialog { border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); color: var(--ink);
+    padding: 0; width: min(640px, 94vw); max-height: 90dvh; box-shadow: var(--shadow); }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  .dlg { display: flex; flex-direction: column; max-height: 90dvh; }
+  .dlg-head { display: flex; justify-content: space-between; align-items: center; padding: 16px 18px; border-bottom: 1px solid var(--line); }
+  .dlg-head h2 { margin: 0; font-size: 18px; }
+  .dlg-body { padding: 16px 18px; overflow: auto; display: flex; flex-direction: column; gap: 18px; }
+  .dlg-body h3 { margin: 0 0 8px; font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  form.add { display: grid; gap: 8px; }
+  form.add label { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
+  input[type=text], input[type=url], input[type=search] { font: inherit; color: inherit; background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; width: 100%; }
+  .list-tools input[type=search] { background: var(--card); width: auto; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .ghost { border: 1px solid var(--line); background: transparent; border-radius: 10px; padding: 8px 12px; font-size: 14px; }
+  .danger { color: var(--red); }
+  ul.deck { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 12px; max-height: 260px; overflow: auto; }
+  ul.deck li { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-top: 1px solid var(--line); font-size: 14px; }
+  ul.deck li:first-child { border-top: 0; }
+  ul.deck .w { font-weight: 600; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  ul.deck .x { border: 0; background: transparent; color: var(--muted); font-size: 18px; line-height: 1; padding: 2px 6px; }
+  .small { font-size: 13px; color: var(--muted); margin: 0; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1><a href="../">ASL Flashcards</a></h1>
+    <div class="hdr-btns">
+      <button class="chip" id="btnStudy" aria-pressed="true">Study</button>
+      <button class="chip" id="btnWords" aria-pressed="false">Words</button>
+      <button class="chip" id="btnManage">Deck</button>
+    </div>
+  </header>
+
+  <!-- ============ STUDY VIEW ============ -->
+  <section id="studyView" style="display:contents">
+    <div class="toolbar" id="studyToolbar" role="group" aria-label="Study options">
+      <button class="chip" id="modeWord" aria-pressed="true" title="See the word, recall the sign">Word → Sign</button>
+      <button class="chip" id="modeSign" aria-pressed="false" title="Watch the sign, recall the word">Sign → Word</button>
+      <button class="chip" id="btnStarred" aria-pressed="false" title="Only study signs you've starred">★ Starred</button>
+      <button class="chip" id="btnWeak" aria-pressed="false" title="Skip signs you've mastered">Weak only</button>
+      <span class="spacer"></span>
+      <span class="progress" id="progress"></span>
+    </div>
+    <div class="browse-banner" id="browseBanner" hidden>
+      <span id="browseLabel"></span>
+      <button class="linkbtn" id="backToList">← Back to list</button>
+    </div>
+    <div class="bar"><i id="barFill"></i></div>
+
+    <div id="studyArea" style="display:contents">
+      <div class="stage">
+        <div class="card" id="card" tabindex="0" aria-live="polite">
+          <div class="face front" id="front"></div>
+          <div class="face back" id="back"></div>
+        </div>
+      </div>
+      <div class="nav">
+        <button class="arrow prev" id="bPrev" aria-label="Previous card">‹ Back</button>
+        <button class="star" id="bStar" aria-pressed="false" aria-label="Star this sign" title="Star (F)">☆</button>
+        <button class="arrow next" id="bNext" aria-label="Next card">Next ›</button>
+      </div>
+      <div id="controls"></div>
+    </div>
+    <div id="doneBox" class="done" hidden></div>
+  </section>
+
+  <!-- ============ WORD LIST VIEW ============ -->
+  <section id="listView" hidden style="display:flex;flex-direction:column;gap:12px">
+    <div class="list-tools">
+      <input type="search" id="listSearch" placeholder="Search words" aria-label="Search words">
+      <button class="chip" id="sortAZ" aria-pressed="true">A–Z</button>
+      <button class="chip" id="sortRecent" aria-pressed="false">Recently added</button>
+      <button class="chip" id="listStarred" aria-pressed="false">★ only</button>
+    </div>
+    <div class="count" id="listCount"></div>
+    <ul class="words" id="wordList"></ul>
+    <p class="small">Tap a word to open its card. Tap ☆ to star it.</p>
+  </section>
+
+  <footer>
+    <div><kbd>Space</kbd> flip · <kbd>←</kbd><kbd>→</kbd> back/next · <kbd>1</kbd> again · <kbd>2</kbd> got it · <kbd>F</kbd> star · <kbd>S</kbd> slow-mo</div>
+    <div style="margin-top:6px">
+      Sign videos from ASL Signbank (Hochgesang, Crasborn, &amp; Lillo-Martin, 2017–2026),
+      <a href="https://aslsignbank.com" target="_blank" rel="noopener">aslsignbank.com</a>,
+      <a href="https://doi.org/10.6084/m9.figshare.9741788" target="_blank" rel="noopener">doi:10.6084/m9.figshare.9741788</a>.
+      Used under CC BY-NC-SA 4.0.
+    </div>
+  </footer>
+</div>
+
+<dialog id="dlg">
+  <div class="dlg">
+    <div class="dlg-head">
+      <h2>Your deck</h2>
+      <button class="ghost" id="dlgClose">Done</button>
+    </div>
+    <div class="dlg-body">
+      <section>
+        <h3>Add a card</h3>
+        <form class="add" id="addForm">
+          <label>Word (front of card)
+            <input type="text" name="word" required placeholder="e.g. think">
+          </label>
+          <label>ASL Signbank link (the entry page, or a copied video address)
+            <input type="url" name="entry" required placeholder="https://aslsignbank.haskins.yale.edu/dictionary/gloss/398.html">
+          </label>
+          <label>Gloss (the sign's label on Signbank, e.g. THINK)
+            <input type="text" name="gloss" placeholder="THINK" autocapitalize="characters">
+          </label>
+          <div class="row"><button class="primary" type="submit">Add card</button></div>
+          <p class="small">
+            The video streams straight from ASL Signbank, so there's nothing to download.
+            Shortcut: right-click the video on Signbank, choose <b>Copy video address</b>, and paste it
+            in the link box. Then you can skip the gloss.
+          </p>
+          <details class="small">
+            <summary>Use your own video file instead</summary>
+            <label style="margin-top:6px">Video path or URL (optional, overrides the Signbank video)
+              <input type="text" name="video" placeholder="videos/think.mp4">
+            </label>
+          </details>
+        </form>
+      </section>
+
+      <section>
+        <h3>Remove cards (<span id="deckCount">0</span>)</h3>
+        <ul class="deck" id="deckList"></ul>
+      </section>
+
+      <section>
+        <h3>Backup &amp; sharing</h3>
+        <div class="row">
+          <button class="ghost" id="btnExport">Export deck (.json)</button>
+          <button class="ghost" id="btnImport">Import deck</button>
+          <input type="file" id="fileImport" accept="application/json,.json" class="sr">
+          <button class="ghost" id="btnResetProg">Reset progress</button>
+          <button class="ghost danger" id="btnResetDeck">Restore built-in deck</button>
+        </div>
+        <p class="small" style="margin-top:8px">
+          Cards, stars and progress are saved in this browser. To make your cards and stars permanent on your
+          GitHub site, export the deck and save it as <code>deck.json</code> next to this file.
+        </p>
+      </section>
+    </div>
+  </div>
+</dialog>
+
+<script>
+/* =========================================================
+   BUILT-IN DECK
+   Used when there's no deck.json and nothing saved in this browser.
+   Each card: word (front), gloss (Signbank ID gloss),
+   entry (Signbank page, shown as the attribution link),
+   video (optional: a file path or full URL; if blank, the app streams
+   the video straight from ASL Signbank using the entry number + gloss),
+   starred (optional: true to start starred).
+   Cards lower in the list count as more recently added.
+   ========================================================= */
+const BUILT_IN_DECK = [
+  { word: "share",    gloss: "SHARE",     entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/251.html" },
+  { word: "open",     gloss: "OPEN",      entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/520.html" },
+  { word: "new",      gloss: "NEW",       entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/195.html" },
+  { word: "think",    gloss: "THINK",     entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/398.html" },
+  { word: "language", gloss: "LANGUAGEl", entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/600.html" },
+  { word: "smile",    gloss: "SMILEix",   entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1078.html" },
+  { word: "dizzy",    gloss: "DIZZY",     entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/1264.html" },
+  { word: "compass",  gloss: "COMPASS",   entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/840.html" },
+  { word: "bone",     gloss: "BONE",      entry: "https://aslsignbank.haskins.yale.edu/dictionary/gloss/362.html" },
+];
+
+const STORE_KEY = "asl-flashcards-v1";
+const MAX_BOX = 4;      // Leitner levels 0..4; 4 = mastered
+const AGAIN_GAP = 3;    // a missed card comes back after this many cards
+
+/* ---------- storage (wrapped: localStorage can throw or be empty) ---------- */
+function load() { try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch { return {}; } }
+function save() {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify({
+      deck: state.customDeck ? state.deck : null,
+      progress: state.progress, stars: state.stars,
+      mode: state.mode, weak: state.weak, starredOnly: state.starredOnly, speed: state.speed,
+      listSort: state.listSort,
+    }));
+  } catch { /* storage unavailable: app still works for this session */ }
+}
+
+const saved = load();
+const state = {
+  deck: [],
+  customDeck: !!saved.deck,
+  progress: saved.progress || {},     // id -> level 0..4
+  stars: saved.stars || {},           // id -> true/false (explicit false = unstarred by you)
+  mode: saved.mode || "word",         // "word": word->sign, "sign": sign->word
+  weak: !!saved.weak,
+  starredOnly: !!saved.starredOnly,
+  speed: saved.speed || 1,
+  view: "study",                      // "study" | "list"
+  listSort: saved.listSort || "az",   // "az" | "recent"
+  listStarred: false,
+  listQuery: "",
+  // A session is an ordered list of cards plus a position in it.
+  session: { order: [], pos: 0, browse: false, label: "" },
+  flipped: false,
+};
+
+const cardId    = c => (c.parts ? "phrase:" + c.word : (c.entry || c.word)).trim().toLowerCase();
+const levelOf   = c => state.progress[cardId(c)] ?? 0;
+const isStarred = c => state.stars[cardId(c)] ?? !!c.starred;
+const current   = () => state.session.order[state.session.pos] || null;
+
+function normalize(list) {
+  if (!Array.isArray(list)) throw new Error("Deck must be a list of cards");
+  return list
+    .filter(c => c && typeof c.word === "string" && c.word.trim())
+    .map(c => ({ word: c.word.trim(), gloss: (c.gloss || "").trim(), entry: (c.entry || "").trim(),
+                 video: (c.video || "").trim(), ...(c.starred ? { starred: true } : {}),
+                 ...(Array.isArray(c.parts) && c.parts.length ? { parts: c.parts.map(p => ({
+                   gloss: (p.gloss || "").trim(), entry: (p.entry || "").trim(), video: (p.video || "").trim() })) } : {}) }));
+}
+
+async function initDeck() {
+  if (state.customDeck) { state.deck = normalize(saved.deck); return; }
+  try {
+    const r = await fetch("deck.json", { cache: "no-cache" });
+    if (r.ok) { state.deck = normalize(await r.json()); return; }
+  } catch { /* opened as a local file, or no deck.json */ }
+  state.deck = normalize(BUILT_IN_DECK);
+}
+
+/* ---------- sessions ---------- */
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function studyPool() {
+  let pool = state.deck.slice();
+  if (state.starredOnly) pool = pool.filter(isStarred);
+  if (state.weak) pool = pool.filter(c => levelOf(c) < MAX_BOX);
+  return pool;
+}
+function startStudy() {
+  // Shuffle, then put lower-level cards first so they get more reps.
+  const pool = shuffle(studyPool()).sort((a, b) => levelOf(a) - levelOf(b));
+  state.session = { order: pool, pos: 0, browse: false, label: "" };
+  state.flipped = false;
+  showView("study");
+}
+function browseFrom(cards, index, label) {
+  state.session = { order: cards.slice(), pos: index, browse: true, label };
+  state.flipped = false;
+  showView("study");
+}
+function go(delta) {
+  const s = state.session, n = s.pos + delta;
+  if (n < 0) return;
+  if (s.browse && n >= s.order.length) return;
+  s.pos = Math.min(n, s.order.length);   // pos === length means "session done"
+  state.flipped = false;
+  render();
+}
+function answer(good) {
+  const c = current();
+  if (!c || !state.flipped) return;
+  const id = cardId(c);
+  if (good) state.progress[id] = Math.min(MAX_BOX, levelOf(c) + 1);
+  else {
+    state.progress[id] = 0;
+    if (!state.session.browse) {   // in study, bring it back a few cards later
+      const s = state.session;
+      s.order.splice(Math.min(s.pos + 1 + AGAIN_GAP, s.order.length), 0, c);
+    }
+  }
+  save();
+  if (state.session.browse && state.session.pos === state.session.order.length - 1) {
+    state.flipped = false; render();   // last card while browsing: stay put
+  } else go(1);
+}
+function flip() {
+  if (!current()) return;
+  state.flipped = !state.flipped;
+  els.card.classList.toggle("flipped", state.flipped);
+  syncVideos();
+  renderControls();
+}
+function toggleStar(c) {
+  if (!c) return;
+  state.stars[cardId(c)] = !isStarred(c);
+  save();
+}
+
+/* ---------- elements & helpers ---------- */
+const $ = id => document.getElementById(id);
+const els = { card: $("card"), front: $("front"), back: $("back"), controls: $("controls"),
+  progress: $("progress"), bar: $("barFill"), studyArea: $("studyArea"), doneBox: $("doneBox"),
+  studyView: $("studyView"), listView: $("listView") };
+function esc(s) { return String(s).replace(/[&<>"']/g, ch => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[ch])); }
+
+/* Signbank stores each sign's video at a predictable address:
+   <site>/dictionary/protected_media/glossvideo/ASL/<first 2 letters of gloss>/<GLOSS>-<id>.mp4
+   The site has lived on two domains, so we try the entry's own domain first, then the other. */
+const SIGNBANK_HOSTS = ["https://aslsignbank.haskins.yale.edu", "https://aslsignbank.com"];
+function videoCandidates(c) {
+  if (c.video) return [c.video];
+  const m = (c.entry || "").match(/^(https?:\/\/[^/]+)\/dictionary\/gloss\/(\d+)/i);
+  if (!m || !c.gloss) return [];
+  const [, origin, id] = m;
+  const folder = encodeURIComponent(c.gloss.slice(0, 2).toUpperCase());
+  const file = encodeURIComponent(`${c.gloss}-${id}.mp4`);
+  const hosts = [origin, ...SIGNBANK_HOSTS.filter(h => h !== origin)];
+  return hosts.map(h => `${h}/dictionary/protected_media/glossvideo/ASL/${folder}/${file}`);
+}
+function fallbackHtml(c, msg) {
+  const link = c.entry ? `<a href="${esc(c.entry)}" target="_blank" rel="noopener">Watch on ASL Signbank ↗</a>` : "";
+  return `<div class="no-video">${msg}${link ? "<br><br>" + link : ""}</div>`;
+}
+function videoBlock(c) {
+  if (c.parts) {
+    const steps = c.parts.map((p, i) => `<span data-step="${i}">${esc(p.gloss || "sign " + (i + 1))}</span>`).join(" → ");
+    return `<div class="video-wrap"><video muted playsinline preload="auto" data-seq="1"></video></div>
+      <div class="seq-steps">${steps}</div>`;
+  }
+  const urls = videoCandidates(c);
+  if (!urls.length) return `<div class="video-wrap">${fallbackHtml(c,
+    c.entry ? "Add the sign's gloss (its Signbank label) to load the video here." : "No video for this card yet.")}</div>`;
+  return `<div class="video-wrap"><video src="${esc(urls[0])}" data-idx="0" muted loop playsinline preload="auto"></video></div>`;
+}
+function speedBtns() {
+  return `<div class="speeds" role="group" aria-label="Playback speed">` +
+    [0.5, 0.75, 1].map(s => `<button data-speed="${s}" aria-pressed="${state.speed === s}">${s}×</button>`).join("") + `</div>`;
+}
+function entryLink(c) {
+  if (c.parts) return `<span class="entry-link">Signbank: ${c.parts.map(p => p.entry
+    ? `<a href="${esc(p.entry)}" target="_blank" rel="noopener">${esc(p.gloss || "sign")} ↗</a>` : esc(p.gloss)).join(" · ")}</span>`;
+  return c.entry ? `<a class="entry-link" href="${esc(c.entry)}" target="_blank" rel="noopener">Signbank entry ↗</a>` : "";
+}
+function levelDots(c) {
+  const l = levelOf(c);
+  const name = ["new", "learning", "learning", "almost there", "mastered"][l];
+  return `<span class="level" title="Level ${l} of ${MAX_BOX}: ${name}">` +
+    Array.from({ length: MAX_BOX }, (_, i) => `<i class="${i < l ? "on" : ""}"></i>`).join("") + `</span>`;
+}
+
+/* ---------- views ---------- */
+function showView(v) {
+  state.view = v;
+  els.studyView.style.display = v === "study" ? "contents" : "none";
+  els.listView.hidden = v !== "list";
+  $("btnStudy").setAttribute("aria-pressed", v === "study" && !state.session.browse);
+  $("btnWords").setAttribute("aria-pressed", v === "list" || (v === "study" && state.session.browse));
+  if (v === "list") { pauseAll(); renderList(); } else render();
+}
+
+/* ---------- study rendering ---------- */
+function render() {
+  const s = state.session, c = current();
+  els.card.classList.remove("flipped");
+  $("studyToolbar").hidden = s.browse;
+  $("browseBanner").hidden = !s.browse;
+  if (s.browse) $("browseLabel").textContent = `${s.label} · ${s.pos + 1} of ${s.order.length}`;
+  updateProgress();
+
+  if (!c) { renderDone(); return; }
+  els.doneBox.hidden = true;
+  els.studyArea.style.display = "contents";
+
+  const wordFace = `
+    <div class="label">${state.mode === "word" ? "Word" : "Answer"}</div>
+    <div class="word">${esc(c.word)}</div>
+    ${c.gloss ? `<div class="gloss">${esc(c.gloss)}</div>` : ""}
+    ${state.mode === "sign" ? `<div style="margin-top:14px">${entryLink(c)}</div>` : ""}
+    <div class="hint">${state.mode === "word" ? "Picture the sign, then tap to check" : ""}</div>`;
+  const signFace = `
+    ${videoBlock(c)}
+    <div class="back-meta">
+      <span class="back-word">${state.mode === "word" ? esc(c.word) : "What's this sign?"}</span>
+      ${speedBtns()}
+    </div>
+    ${state.mode === "word" ? `<div class="back-meta">${entryLink(c)}${levelDots(c)}</div>` : ""}`;
+
+  if (state.mode === "word") {
+    els.front.className = "face front";              els.front.innerHTML = wordFace;
+    els.back.className  = "face back layout-video";  els.back.innerHTML  = signFace;
+  } else {
+    els.front.className = "face front layout-video"; els.front.innerHTML = signFace;
+    els.back.className  = "face back";               els.back.innerHTML  = wordFace;
+  }
+
+  const urls = videoCandidates(c);
+  els.card.querySelectorAll("video[data-seq]").forEach(v => setupSequence(v, c));
+  els.card.querySelectorAll("video:not([data-seq])").forEach(v => {
+    v.playbackRate = state.speed;
+    v.addEventListener("loadedmetadata", () => { v.playbackRate = state.speed; });
+    v.addEventListener("error", () => {
+      const i = +v.dataset.idx + 1;
+      if (i < urls.length) {
+        v.dataset.idx = i; v.src = urls[i];
+        if (v.closest(".face") === (state.flipped ? els.back : els.front)) v.play().catch(() => {});
+        return;
+      }
+      v.parentElement.innerHTML = fallbackHtml(c, c.video
+        ? `Couldn't load <code>${esc(c.video)}</code>.` : "Couldn't load this video from ASL Signbank.");
+    });
+  });
+  els.card.querySelectorAll(".speeds button").forEach(b => b.addEventListener("click", e => {
+    e.stopPropagation(); setSpeed(parseFloat(b.dataset.speed));
+  }));
+  els.card.querySelectorAll("a").forEach(a => a.addEventListener("click", e => e.stopPropagation()));
+
+  syncVideos();
+  renderNav();
+  renderControls();
+}
+
+function renderDone() {
+  pauseAll();
+  els.studyArea.style.display = "none";
+  els.doneBox.hidden = false;
+  const empty = state.deck.length === 0;
+  const pool = studyPool();
+  let html, action;
+  if (empty) {
+    html = `<h2>Your deck is empty</h2><p>Add some cards to get started.</p><button class="primary" id="doneAct">Open deck</button>`;
+    action = openManager;
+  } else if (state.session.order.length === 0 && state.starredOnly && !state.deck.some(isStarred)) {
+    html = `<h2>No starred signs yet</h2><p>Tap ☆ on a card, or in the Words list, to add signs to your starred deck.</p>
+            <button class="primary" id="doneAct">Study all signs</button>`;
+    action = () => { state.starredOnly = false; syncToolbar(); save(); startStudy(); };
+  } else if (state.session.order.length === 0 && pool.length === 0) {
+    html = `<h2>Everything here is mastered</h2><p>Turn off "Weak only" to review these signs again.</p>
+            <button class="primary" id="doneAct">Review all</button>`;
+    action = () => { state.weak = false; syncToolbar(); save(); startStudy(); };
+  } else {
+    const n = new Set(state.session.order.map(cardId)).size;
+    html = `<h2>Session done</h2><p>${n} sign${n === 1 ? "" : "s"} reviewed.</p>
+            <div class="row" style="justify-content:center">
+              <button class="ghost" id="doneBack">‹ Back</button>
+              <button class="primary" id="doneAct">Go again</button>
+            </div>`;
+    action = startStudy;
+  }
+  els.doneBox.innerHTML = html;
+  $("doneAct").onclick = action;
+  const back = $("doneBack"); if (back) back.onclick = () => go(-1);
+}
+
+function renderNav() {
+  const s = state.session, c = current();
+  $("bPrev").disabled = s.pos === 0;
+  $("bNext").disabled = s.browse && s.pos >= s.order.length - 1;
+  const on = !!c && isStarred(c);
+  $("bStar").setAttribute("aria-pressed", on);
+  $("bStar").textContent = on ? "★" : "☆";
+  $("bStar").setAttribute("aria-label", on ? "Unstar this sign" : "Star this sign");
+}
+function renderControls() {
+  els.controls.innerHTML = state.flipped
+    ? `<div class="answer"><button class="again" id="bAgain">Again</button><button class="good" id="bGood">Got it</button></div>`
+    : `<button class="flipbtn" id="bFlip">Show ${state.mode === "word" ? "sign" : "word"}</button>`;
+  if (state.flipped) { $("bAgain").onclick = () => answer(false); $("bGood").onclick = () => answer(true); }
+  else $("bFlip").onclick = flip;
+}
+/* Multi-sign cards (e.g. NICE + MEET + YOU): play each part's video in turn, then loop. */
+function setupSequence(v, c) {
+  const parts = c.parts.map(p => videoCandidates(p));
+  const face = v.closest(".face");
+  const steps = face.querySelectorAll(".seq-steps [data-step]");
+  let failed = 0;
+  v.seqGo = i => {
+    v.seqIdx = i; v.seqTry = 0;
+    steps.forEach(s => s.classList.toggle("on", +s.dataset.step === i));
+    const list = parts[i] || [];
+    if (!list.length) { v.seqNext(); return; }
+    v.src = list[0];
+    if (face === (state.flipped ? els.back : els.front)) v.play().catch(() => {});
+  };
+  v.seqNext = () => v.seqGo((v.seqIdx + 1) % parts.length);
+  v.addEventListener("loadedmetadata", () => { v.playbackRate = state.speed; });
+  v.addEventListener("ended", () => { failed = 0; v.seqNext(); });
+  v.addEventListener("error", () => {
+    const list = parts[v.seqIdx] || [];
+    if (++v.seqTry < list.length) { v.src = list[v.seqTry]; v.play().catch(() => {}); return; }
+    if (++failed >= parts.length) { v.parentElement.innerHTML = fallbackHtml(c, "Couldn't load these videos from ASL Signbank."); return; }
+    v.seqNext();
+  });
+  v.seqGo(0);
+}
+function syncVideos() {
+  const visible = state.flipped ? els.back : els.front;
+  els.card.querySelectorAll("video").forEach(v => {
+    if (!visible.contains(v)) { v.pause(); return; }
+    if (v.seqGo) v.seqGo(0); else { v.currentTime = 0; v.play().catch(() => {}); }
+  });
+}
+function pauseAll() { els.card.querySelectorAll("video").forEach(v => v.pause()); }
+function setSpeed(s) {
+  state.speed = s; save();
+  els.card.querySelectorAll("video").forEach(v => v.playbackRate = s);
+  els.card.querySelectorAll(".speeds button").forEach(b => b.setAttribute("aria-pressed", parseFloat(b.dataset.speed) === s));
+}
+function updateProgress() {
+  const s = state.session;
+  const mastered = state.deck.filter(c => levelOf(c) >= MAX_BOX).length;
+  const starred = state.deck.filter(isStarred).length;
+  els.bar.style.width = (s.order.length ? (Math.min(s.pos, s.order.length) / s.order.length) * 100 : 0) + "%";
+  els.progress.textContent = s.order.length
+    ? `${Math.min(s.pos + 1, s.order.length)}/${s.order.length} · ${mastered} mastered · ${starred} ★`
+    : `${mastered}/${state.deck.length} mastered · ${starred} ★`;
+}
+function syncToolbar() {
+  $("modeWord").setAttribute("aria-pressed", state.mode === "word");
+  $("modeSign").setAttribute("aria-pressed", state.mode === "sign");
+  $("btnWeak").setAttribute("aria-pressed", state.weak);
+  $("btnStarred").setAttribute("aria-pressed", state.starredOnly);
+}
+
+/* ---------- word list ---------- */
+function listCards() {
+  // Recency = position in the deck (cards added later sit lower in the deck).
+  let cards = state.deck.map((c, i) => ({ c, i }));
+  const q = state.listQuery.trim().toLowerCase();
+  if (q) cards = cards.filter(({ c }) => c.word.toLowerCase().includes(q) || c.gloss.toLowerCase().includes(q));
+  if (state.listStarred) cards = cards.filter(({ c }) => isStarred(c));
+  cards.sort(state.listSort === "az"
+    ? (a, b) => a.c.word.localeCompare(b.c.word, undefined, { sensitivity: "base" })
+    : (a, b) => b.i - a.i);
+  return cards.map(x => x.c);
+}
+function renderList() {
+  $("sortAZ").setAttribute("aria-pressed", state.listSort === "az");
+  $("sortRecent").setAttribute("aria-pressed", state.listSort === "recent");
+  $("listStarred").setAttribute("aria-pressed", state.listStarred);
+  const cards = listCards();
+  const starred = state.deck.filter(isStarred).length;
+  $("listCount").textContent = `${cards.length} of ${state.deck.length} words · ${starred} starred`;
+  $("wordList").innerHTML = cards.length ? cards.map((c, i) => {
+    const on = isStarred(c);
+    return `<li>
+      <button class="star" data-star="${i}" aria-pressed="${on}" aria-label="${on ? "Unstar" : "Star"} ${esc(c.word)}">${on ? "★" : "☆"}</button>
+      <button class="open" data-open="${i}">
+        <span class="w">${esc(c.word)}</span><span class="g">${esc(c.gloss)}</span>${levelDots(c)}
+      </button>
+    </li>`;
+  }).join("") : `<li class="empty">${state.listStarred ? "No starred words yet." : "No words match."}</li>`;
+
+  $("wordList").querySelectorAll("[data-open]").forEach(b => b.onclick = () => {
+    const label = (state.listStarred ? "Starred, " : "All words, ") + (state.listSort === "az" ? "A–Z" : "newest first");
+    browseFrom(cards, +b.dataset.open, label);
+  });
+  $("wordList").querySelectorAll("[data-star]").forEach(b => b.onclick = () => {
+    toggleStar(cards[+b.dataset.star]); renderList();
+  });
+}
+$("listSearch").addEventListener("input", e => { state.listQuery = e.target.value; renderList(); });
+$("sortAZ").onclick      = () => { state.listSort = "az"; save(); renderList(); };
+$("sortRecent").onclick  = () => { state.listSort = "recent"; save(); renderList(); };
+$("listStarred").onclick = () => { state.listStarred = !state.listStarred; renderList(); };
+$("backToList").onclick  = () => showView("list");
+
+/* ---------- deck manager ---------- */
+const dlg = $("dlg");
+function openManager() { renderDeckList(); dlg.showModal(); }
+function renderDeckList() {
+  $("deckCount").textContent = state.deck.length;
+  $("deckList").innerHTML = state.deck.map((c, i) => `
+    <li>
+      <span class="w" title="${esc(videoCandidates(c)[0] || "no video")}">${esc(c.word)}</span>
+      <span class="small">${c.parts ? c.parts.length + " signs" : videoCandidates(c).length ? "" : "no video"}</span>
+      <button class="x" data-del="${i}" aria-label="Delete ${esc(c.word)}">×</button>
+    </li>`).join("") || `<li><span class="w" style="font-weight:400;color:var(--muted)">No cards yet</span></li>`;
+  $("deckList").querySelectorAll("[data-del]").forEach(b => b.onclick = () => {
+    state.deck.splice(+b.dataset.del, 1); state.customDeck = true; save(); renderDeckList();
+  });
+}
+$("addForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  let entry = (f.get("entry") || "").trim(), gloss = (f.get("gloss") || "").trim();
+  // Pasted a video address like .../glossvideo/ASL/TH/THINK-398.mp4? Work out the entry page and gloss.
+  const vm = entry.match(/^(https?:\/\/[^/]+)\/dictionary\/protected_media\/glossvideo\/ASL\/[^/]+\/(.+)-(\d+)\.mp4/i);
+  if (vm) { gloss = gloss || decodeURIComponent(vm[2]); entry = `${vm[1]}/dictionary/gloss/${vm[3]}.html`; }
+  entry = entry.replace(/(\/dictionary\/gloss\/\d+)\/?$/, "$1.html");
+  const card = normalize([{ word: f.get("word"), gloss, entry, video: f.get("video") }])[0];
+  if (!card) return;
+  state.deck.push(card); state.customDeck = true; save();
+  e.target.reset(); e.target.word.focus(); renderDeckList();
+});
+$("btnExport").onclick = () => {
+  const out = state.deck.map(c => {
+    const { starred, ...rest } = c;
+    return isStarred(c) ? { ...rest, starred: true } : rest;
+  });
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+  const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "deck.json" });
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+};
+$("btnImport").onclick = () => $("fileImport").click();
+$("fileImport").onchange = async e => {
+  const file = e.target.files[0]; if (!file) return;
+  try { state.deck = normalize(JSON.parse(await file.text())); state.customDeck = true; save(); renderDeckList(); }
+  catch (err) { alertInline("That file isn't a valid deck: " + err.message); }
+  e.target.value = "";
+};
+$("btnResetProg").onclick = () => { state.progress = {}; save(); renderDeckList(); };
+$("btnResetDeck").onclick = async () => { state.customDeck = false; save(); await initDeck(); renderDeckList(); };
+$("dlgClose").onclick = () => dlg.close();
+dlg.addEventListener("close", () => { state.view === "list" ? renderList() : startStudy(); });
+function alertInline(msg) {
+  const p = document.createElement("p"); p.className = "small danger"; p.textContent = msg;
+  $("btnExport").parentElement.after(p); setTimeout(() => p.remove(), 5000);
+}
+
+/* ---------- toolbar, nav & keys ---------- */
+$("btnStudy").onclick   = startStudy;
+$("btnWords").onclick   = () => showView("list");
+$("btnManage").onclick  = openManager;
+$("modeWord").onclick   = () => { state.mode = "word"; syncToolbar(); save(); startStudy(); };
+$("modeSign").onclick   = () => { state.mode = "sign"; syncToolbar(); save(); startStudy(); };
+$("btnWeak").onclick    = () => { state.weak = !state.weak; syncToolbar(); save(); startStudy(); };
+$("btnStarred").onclick = () => { state.starredOnly = !state.starredOnly; syncToolbar(); save(); startStudy(); };
+$("bPrev").onclick = () => go(-1);
+$("bNext").onclick = () => go(1);
+$("bStar").onclick = () => { toggleStar(current()); renderNav(); updateProgress(); };
+els.card.addEventListener("click", () => { if (!state.flipped) flip(); });
+
+document.addEventListener("keydown", e => {
+  if (dlg.open || e.target.matches("input, textarea") || state.view !== "study") return;
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (k === " " || k === "enter") { e.preventDefault(); flip(); }
+  else if (k === "arrowleft")  go(-1);
+  else if (k === "arrowright") go(1);
+  else if (k === "1") answer(false);
+  else if (k === "2") answer(true);
+  else if (k === "f") { toggleStar(current()); renderNav(); updateProgress(); }
+  else if (k === "s") setSpeed(state.speed === 0.5 ? 1 : 0.5);
+  else if (k === "escape" && state.session.browse) showView("list");
+});
+
+(async () => { syncToolbar(); await initDeck(); startStudy(); })();
+</script>
+</body>
+</html>
